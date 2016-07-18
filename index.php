@@ -26,10 +26,8 @@
                 <div class="moc-top">
                     <div class="moc-header">
                         <a href="#">
-                        <h2>
-                            
-                            <img src="touch-icon-iphone-retina.png" alt="MO Checklist"/>
-<!--                            MO Checklist-->
+                        <h2>                            
+                            <img src="touch-icon-iphone-retina.png" alt="MO Checklist"/> Checklist
                         </h2>
                         </a>
                     </div>
@@ -43,7 +41,7 @@
 -->
                     <div class="moc-canvas">
                         <div class="moc-post">
-                            <h3>&raquo; Day 1: "UTB Starter Pack"</h3>
+                            <h3>&raquo; Day 1: "UTB Starter Pack" &laquo;</h3>
                                 <ul>                                    
                                     <li>
                                         <div class="moc-step">
@@ -99,7 +97,7 @@
                                             STEP #3A - CREATE Student ID
                                         </h4>
                                         <h5>Location: GF.31</h5>
-                                        <p>To-bring:</p>
+                                        <p>To bring:</p>
                                         <ul>                                            
                                             <li><input type="checkbox" name="moc-tobring3a" value="passphot" id="moc-s3a1"> Softcopy of passport-sized Photo</li>
                                         </ul>
@@ -114,7 +112,7 @@
                                             STEP #3B - REGISTER Course
                                         </h4>
                                         <h5>Location: Teratak Putih</h5>
-                                        <p>To-bring:</p>
+                                        <p>To bring:</p>
                                         <ul>
                                             <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b1"> <em>Photocopy</em> of Offer Letter</li>
                                             <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b2"> Two (2x) Passport-sized photo</li>
@@ -190,7 +188,7 @@
                                             </li>
                                             <li>
                                                 <input type="checkbox" name="moc-op" value="shirt" id="moc-op8">
-                                                UTB Notebook*
+                                                UTB Notebook
                                             </li>
                                             <li>
                                                 <input type="checkbox" name="moc-op" value="shirt" id="moc-op9"> 
