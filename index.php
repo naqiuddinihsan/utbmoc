@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="style.css" />        
         <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,900" rel="stylesheet">
         <link rel="icon" href="http://www.utb.edu.bn/favicon.ico" type="image/x-icon">
+        <meta name="apple-mobile-web-app-capable" content="yes">
     </head>
     <body>
         <div class="moc-sandbox">
