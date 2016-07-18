@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html manifest="utbmoc.manifest">
-<!--<html>-->
+<!--<html manifest="utbmoc.manifest">-->
+<html>
     <head>
         <title>MO Checklist</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -27,7 +27,7 @@
                     <div class="moc-header">
                         <a href="#">
                         <h2>                            
-                            <img src="touch-icon-iphone-retina.png" alt="MO Checklist"/> Checklist
+                            <img src="touch-icon-iphone-retina.png" alt="MO"/> Checklist
                         </h2>
                         </a>
                     </div>

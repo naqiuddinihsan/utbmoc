@@ -4,7 +4,7 @@ html, body {
     background: #E8EAF6;
     color: #757575;
 */
-    
+    background: #F2F4F4;
 }
 
 html, body, input {
@@ -160,10 +160,15 @@ button:active {
 }
 
 .moc-step {
-    background: #F2F4F4;
+/*    background: #F2F4F4;*/
+    background: #fff;
     padding: 18px;
     margin-bottom: 12px;
 /*    border-radius: 4px;*/
+}
+
+.moc-step p {
+    margin-bottom: 8px;
 }
 
 .moc-hint {
