@@ -5,7 +5,8 @@
         <title>MO Checklist</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <link rel="stylesheet" href="style.css" />        
-        <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,900" rel="stylesheet">
+<!--        <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,900" rel="stylesheet">-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
         
         <!--Cosmetic-->
         <link rel="icon" href="http://www.utb.edu.bn/favicon.ico" type="image/x-icon">
@@ -28,11 +29,12 @@
                     </div>
                 </div>
                 <div class="moc-mid">
+<!--
                     <div class="moc-banner">
                         <p>Hi! This app will guide you through the process 😀</p>
                         <a href="https://www.dropbox.com/s/f6h3dbvdukyfajl/utbmo2k16_ow_d1.pdf?dl=0">PDF Link (900kB)</a>
-<!--                        <input type="text"> Test Box-->
                     </div>
+-->
                     <div class="moc-canvas">
                         <div class="moc-post">
                             <h3>&raquo; Day 1: "UTB Starter Pack"</h3>
@@ -71,6 +73,7 @@
                                         </h4>
                                         <h5>Location: GF.30</h5>
                                         <p>All new students are advised to pay for insurance according to their Faculty/School before proceeding to <u>Step 3</u></p>
+                                            <hr>
                                         <h6># Faculty of Engineering &raquo; Takaful Brunei Keluarga</h6>
                                         <h6># School of Business &amp; School of Computing and Informatics &raquo; Insurans Islam TAIB</h6>
                                         </div>   
