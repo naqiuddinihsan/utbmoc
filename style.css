@@ -7,7 +7,7 @@ html, body {
 }
 
 html, body, input {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Maven Pro', sans-serif;
 }
 
 a {
@@ -78,6 +78,7 @@ button:active {
 .moc-banner {
     height: 320px;    
     background: blue;
+    display: none;
 }
 
 .moc-canvas {
@@ -85,7 +86,7 @@ button:active {
 }
 
 .moc-post {
-    background: red;
+/*    background: #E8EAF6;*/
     margin: 0 auto 8px auto;     
     padding: 24px;
 }
@@ -96,7 +97,11 @@ button:active {
 }
 
 .moc-post h3 {
-    font-weight: bold;
+    font-weight: 900;
+}
+
+.moc-post h4 {
+    color: #00B5C3;
 }
 
 .moc-post ul li {
