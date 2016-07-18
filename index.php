@@ -7,18 +7,19 @@
         <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,900" rel="stylesheet">
         <link rel="icon" href="http://www.utb.edu.bn/favicon.ico" type="image/x-icon">
         <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="apple-touch-icon" href="/icon196.png">
     </head>
     <body>
         <div class="moc-sandbox">
             <div class="moc-platform">
                 <div class="moc-top">
                     <div class="moc-header">
-                        <h2>UTB MO Checklist</h2>
+                        <h2>MO Checklist</h2>
                     </div>
                 </div>
                 <div class="moc-mid">
                     <div class="moc-banner">
-                        <p>Check out pmutb.Slack.com!</p>
+                        <p>Hi! This app will guide you through the process 😀</p>
                     </div>
                     <div class="moc-canvas">
                         <div class="moc-post">
@@ -29,7 +30,7 @@
                                         <div class="moc-step">
                                         <h4>
                                             <input type="checkbox" name="moc-step" value="step" checked="checked">
-                                            STEP #0 - Come to UTB
+                                            STEP #0 - Come to Uni
                                         </h4>
                                         <p></p>
                                         </div>
@@ -131,7 +132,7 @@
                                         <p>To bring/submit:
                                             <ul>
                                                 <li>
-                                                    *<input type="checkbox" name="moc-step" value="step"> Payment receipt (from <b>Step 4</b>)
+                                                    <input type="checkbox" name="moc-step" value="step"> *Payment receipt (from <b>Step 4</b>)
                                                 </li>
                                             </ul>
                                         </p>

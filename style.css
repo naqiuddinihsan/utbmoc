@@ -80,9 +80,9 @@ button:active {
 }
 
 .moc-banner {
-    height: 320px;    
-    background: blue;
-    display: none;
+/*    height: 320px;    */
+    padding: 12px;
+    text-align: center;
 }
 
 .moc-canvas {
@@ -115,7 +115,7 @@ button:active {
 }
 
 .moc-post ul {
-    -webkit-padding-start: 16px;
+    -webkit-padding-start: 0px;
 }
 
 .moc-post ul li {
@@ -135,6 +135,8 @@ button:active {
 
 .moc-hint {
     background: #FAE89B;
-    border-top: 1px solid #D5AD00;
-    border-bottom: 1px solid #D5AD00;
+    border: 1px solid #D5AD00;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 4px;
 }
