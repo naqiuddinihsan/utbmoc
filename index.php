@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html manifest="utbmoc.manifest">
-<!--<html>-->
+<!--<html manifest="utbmoc.manifest">-->
+<html>
     <head>
         <title>MO Checklist</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <link rel="stylesheet" href="style.css" />        
-<!--        <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,900" rel="stylesheet">-->
+        <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,900" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
         
         <!--Cosmetic-->
@@ -25,7 +25,13 @@
             <div class="moc-platform">
                 <div class="moc-top">
                     <div class="moc-header">
-                        <h2>MO Checklist</h2>
+                        <a href="#">
+                        <h2>
+                            
+                            <img src="touch-icon-iphone-retina.png" alt="MO Checklist"/>
+<!--                            MO Checklist-->
+                        </h2>
+                        </a>
                     </div>
                 </div>
                 <div class="moc-mid">

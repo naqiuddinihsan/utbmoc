@@ -87,6 +87,14 @@ button:active {
     line-height: 56px;
     margin: 0;
     color: #6B3E85;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.moc-header h2 img {
+    max-height: 32px;
+    border-radius: 8px;
+    vertical-align: middle;
+    margin: auto;
 }
 
 .moc-mid {
@@ -101,7 +109,7 @@ button:active {
 
 .moc-canvas {
 /*    padding: 0 8px;*/
-    padding-top: 12px;
+    padding-top: 24px;
 }
 
 .moc-post {
