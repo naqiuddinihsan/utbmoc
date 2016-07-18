@@ -48,11 +48,11 @@
                                     </li>
                                         
                                     
-                                    
+                                    <!--STEP 1-->
                                     <li>
                                         <div class="moc-step">
                                         <h4>
-                                            <input type="checkbox" name="moc-step" value="step">
+                                            <input type="checkbox" name="moc-step" value="step" id="moc-step1">
                                             STEP #1 - OPEN Bank Account
                                         </h4>
                                         <h5>Location: ???</h5>
@@ -62,11 +62,11 @@
                                     </li>
                                         
                                         
-                                        
+                                    <!--STEP 2-->    
                                     <li>
                                         <div class="moc-step">
                                         <h4>
-                                            <input type="checkbox" name="moc-step" value="step">
+                                            <input type="checkbox" name="moc-step" value="step" id="moc-step2">
                                             STEP #2 - GET Insurance
                                         </h4>
                                         <h5>Location: GF.30</h5>
@@ -81,11 +81,12 @@
                                             <p><em>You may either complete STEP 3A or 3B in any order. However, you still have to complete both steps before proceeding to <u>Step 4</u></em></p>
                                         </div>
                                         </li>
-                                        
+                                    
+                                    <!--STEP 3a-->
                                     <li>
                                         <div class="moc-step">
                                         <h4>
-                                            <input type="checkbox" name="moc-step" value="step">
+                                            <input type="checkbox" name="moc-step" value="step" id="moc-step3a">
                                             STEP #3A - CREATE Student ID
                                         </h4>
                                         <h5>Location: GF.31</h5>
@@ -96,20 +97,17 @@
                                         </div>
                                     </li>
                                         
-                                        
-                                        
-                                        
-                                        
+                                    <!--STEP 3b-->    
                                     <li>
                                         <div class="moc-step">
                                         <h4>
-                                            <input type="checkbox" name="moc-step" value="step">
+                                            <input type="checkbox" name="moc-step" value="step" id="moc-step3b">
                                             STEP #3B - REGISTER Course
                                         </h4>
                                         <h5>Location: Teratak Putih</h5>
                                         <p>To-bring:</p>
                                         <ul>
-                                            <li><input type="checkbox" name="moc-tobring3b" value="tobring"> <em>Photocopy</em> of Offer Letter</li>
+                                            <li><input type="checkbox" name="moc-tobring3b1" value="tobring"> <em>Photocopy</em> of Offer Letter</li>
                                             <li><input type="checkbox" name="moc-tobring3b" value="tobring"> Two (2x) Passport-sized photo</li>
                                             <li><input type="checkbox" name="moc-tobring3b" value="tobring"> Two (2x) copies of ID Card</li>
                                             <li><input type="checkbox" name="moc-tobring3b" value="tobring"> Insurance receipt</li>
@@ -117,11 +115,12 @@
                                         </ul>
                                         </div>
                                     </li>
-                                        
+                                    
+                                    <!--STEP 5-->
                                     <li>
                                         <div class="moc-step">
                                         <h4>
-                                            <input type="checkbox" name="moc-step" value="step">
+                                            <input type="checkbox" name="moc-step" value="step" id="moc-step4">
                                             STEP #4 - PAY Fees
                                         </h4>
                                         <h5>Location: GF.27/28 &amp; GF.29</h5>
@@ -133,11 +132,13 @@
                                         </ul>
                                         </div>
                                     </li>
-                                        
+                                    
+                    
+                                    <!--STEP 6-->
                                     <li>
                                         <div class="moc-step">
                                         <h4>
-                                            <input type="checkbox" name="moc-step" value="step">
+                                            <input type="checkbox" name="moc-step" value="step" id="moc-step5">
                                             STEP #5 - COLLECT Orientation Pack
                                         </h4>
                                         <h5>Location: Concourse Hall</h5>
@@ -190,14 +191,12 @@
                                         
                                         </div>
                                     </li>
-                                        
-                        
-                        
-                        
+                    
+                                    <!--STEP 6-->
                                     <li>
                                         <div class="moc-step">
                                         <h4>
-                                            <input type="checkbox" name="moc-step" value="step">
+                                            <input type="checkbox" name="moc-step" value="step" id="moc-step6">
                                             STEP #6 - VISIT CCA Booths
                                         </h4>
                                         <h5>Location: Silver Jubilee Court</h5>
