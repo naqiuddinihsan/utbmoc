@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Checklist</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <link rel="stylesheet" href="style.css" />        
         <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,900" rel="stylesheet">
         <link rel="icon" href="http://www.utb.edu.bn/favicon.ico" type="image/x-icon">
