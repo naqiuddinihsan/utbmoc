@@ -31,12 +31,11 @@
                     <div class="moc-banner">
                         <p>Hi! This app will guide you through the process 😀</p>
                         <a href="https://www.dropbox.com/s/f6h3dbvdukyfajl/utbmo2k16_ow_d1.pdf?dl=0">PDF Link (900kB)</a>
-                        <input type="text"> Test Box
+<!--                        <input type="text"> Test Box-->
                     </div>
                     <div class="moc-canvas">
                         <div class="moc-post">
-                            <h3>&raquo; Day 1: </h3>
-                            <p>
+                            <h3>&raquo; Day 1: "UTB Starter Pack"</h3>
                                 <ul>                                    
                                     <li>
                                         <div class="moc-step">
@@ -58,7 +57,7 @@
                                         </h4>
                                         <h5>Location: ???</h5>
                                         <p>For allowance purposes (applicable to Government Scholarship students only), if you do not have a Bank Account, please go to a bank and open up a new account</p>
-                                        <p>If you already have a Bank account <b>OR</b> a Non-government Student, <br>please proceed to <b>Step 2</b></p>
+                                        <p>If you already have a Bank account <b>OR</b> a Non-government Student, <br>please proceed to <u>Step 2</u></p>
                                         </div>
                                     </li>
                                         
@@ -71,16 +70,15 @@
                                             STEP #2 - GET Insurance
                                         </h4>
                                         <h5>Location: GF.30</h5>
-                                        <p>All new students are advised to pay for insurance according to their Faculty/School before proceeding to <b>Step 3</b></p>
-                                        
-                                        <h5>Faculty of Engineering &raquo; Takaful Brunei Keluarga</h5>
-                                        <h5>School of Business &amp; School of Computing and Informatics &raquo; Insurans Islam TAIB</h5>                                        
+                                        <p>All new students are advised to pay for insurance according to their Faculty/School before proceeding to <u>Step 3</u></p>
+                                        <h6># Faculty of Engineering &raquo; Takaful Brunei Keluarga</h6>
+                                        <h6># School of Business &amp; School of Computing and Informatics &raquo; Insurans Islam TAIB</h6>
                                         </div>   
                                     </li>
                                         
                                         <li>
                                         <div class="moc-hint"
-                                            <p><em>You may either complete STEP 3A or 3B in any order. However, you still have to complete both steps before proceeding to <b>Step 4</b></em></p>
+                                            <p><em>You may either complete STEP 3A or 3B in any order. However, you still have to complete both steps before proceeding to <u>Step 4</u></em></p>
                                         </div>
                                         </li>
                                         
@@ -146,7 +144,7 @@
                                         <p>To bring/submit:</p>
                                         <ul>
                                             <li>
-                                                <input type="checkbox" name="moc-step" value="step"> *Payment receipt (from <b>Step 4</b>)
+                                                <input type="checkbox" name="moc-step" value="step"> *Payment receipt (from <u>Step 4</u>)
                                             </li>
                                         </ul>
                                         
@@ -207,7 +205,6 @@
                                         </div>
                                     </li>
                                 </ul>
-                            </p>
                         </div>
 <!--
                         <div class="moc-post">

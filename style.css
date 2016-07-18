@@ -30,7 +30,7 @@ ul, ol {
 }
 
 p, ul, ol, li, a {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
@@ -100,13 +100,13 @@ button:active {
 }
 
 .moc-canvas {
-    padding: 0 8px;
+/*    padding: 0 8px;*/
 }
 
 .moc-post {
 /*    background: #E8EAF6;*/
     margin: 0 auto 8px auto;     
-    padding: 24px;
+/*    padding: 24px;*/
 }
 
 .moc-post p {
@@ -119,13 +119,19 @@ button:active {
 }
 
 .moc-post h4 {
-    color: #00B5C3;
+/*    color: #00B5C3;*/
+    color: #364D5B;
     margin: 0;
     
 }
 
 .moc-post h5 {
-    margin-top: 0;
+    margin-top: 0;    
+}
+
+.moc-post h6 {
+    margin: 0;
+    font-size: 13px;
 }
 
 .moc-post ul, .moc-post ol {
@@ -142,9 +148,9 @@ button:active {
 
 .moc-step {
     background: #F2F4F4;
-    padding: 12px;
+    padding: 18px;
     margin-bottom: 12px;
-    border-radius: 4px;
+/*    border-radius: 4px;*/
 }
 
 .moc-hint {
@@ -153,4 +159,6 @@ button:active {
     padding: 12px;
     margin-bottom: 12px;
     border-radius: 4px;
+    margin-left: 12px;
+    margin-right: 12px;
 }
