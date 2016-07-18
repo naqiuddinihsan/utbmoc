@@ -46,12 +46,12 @@ button:active {
 
 .moc-top, .moc-mid, .moc-bot {
     width: 100%;
-    min-width: 600px;
 }
 
 .moc-mid {
     max-width: 1000px;
     margin: 0 auto;
+    margin-top: 56px;
 }
 
 .moc-top {
