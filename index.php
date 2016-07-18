@@ -38,15 +38,14 @@
                                             STEP #1 - OPEN Bank account
                                         </h4>
                                         <p>For allowance purposes (applicable to Government Scholarship students only), if you do not have a Bank Account, please go to a bank and open up a new account</p>
-                                        <p>If you already have a Bank account <br>OR<br> a Non-government Student, please proceed to Step 2</p>
                                     </li>
                                         <hr>
+                                        
                                     <li>
                                         <h4>
                                             <input type="checkbox" name="moc-step" value="step">
                                             STEP #2 - GET Insurance
                                         </h4>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                                     </li>
                                         <hr>
                                     <li>
