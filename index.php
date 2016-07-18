@@ -9,36 +9,61 @@
         <link rel="icon" href="http://www.utb.edu.bn/favicon.ico" type="image/x-icon">
     </head>
     <body>
-        <div class="sandbox">
-            <div class="top">
-                <div class="header">
-                    <h2>UTB MO Checklist</h2>
+        <div class="moc-sandbox">
+            <div class="moc-platform">
+                <div class="moc-top">
+                    <div class="moc-header">
+                        <h2>UTB MO Checklist</h2>
+                    </div>
                 </div>
+                <div class="moc-mid">
+                    <div class="moc-banner">
+
+                    </div>
+                    <div class="moc-canvas">
+                        <div class="moc-post">
+                            <h3>Day 1</h3>
+                            <p>
+                                <ol>                                    
+                                    <li>
+                                        <input type="checkbox" name="moc-step" value="step">
+                                        <h4>OPEN bank account</h4>
+                                        <p>For allowance purposes (applicable to Government Scholarship students only), if you do not have a Bank Account, please go to a bank and open up a new account</p>
+                                        <p>If you already have a Bank account <br>OR<br> a Non-government Student, please proceed to Step 2</p>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        <input type="checkbox" name="moc-step" value="step">
+                                        GET Insurance</li>
+                                    <li>
+                                        <input type="checkbox" name="moc-step" value="step">CREATE Student ID</li>
+                                    <li>
+                                        <input type="checkbox" name="moc-step" value="step">REGISTER course</li>
+                                    <li>
+                                        <input type="checkbox" name="moc-step" value="step">PAY Fees</li>
+                                    <li>
+                                        <input type="checkbox" name="moc-step" value="step">COLLECT Orientation Pack</li>
+                                    <li>
+                                        <input type="checkbox" name="moc-step" value="step">VISIT CCA Booths</li>
+                                </ol>
+                            </p>
+                        </div>
+                        <div class="moc-post">
+                            <h3>Day 2</h3>
+                            <p></p>
+                        </div>
+                        <div class="moc-post">
+                            <h3>Day 3</h3>
+                            <p></p>
+                        </div>
+                        <div class="moc-post">
+                            <h3>Day 4</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="moc-bot"></div>
             </div>
-            <div class="mid">
-                <div class="banner">
-                    
-                </div>
-                <div class="canvas">
-                    <div class="post">
-                        <h3>Day 1</h3>
-                        <p></p>
-                    </div>
-                    <div class="post">
-                        <h3>Day 2</h3>
-                        <p></p>
-                    </div>
-                    <div class="post">
-                        <h3>Day 3</h3>
-                        <p></p>
-                    </div>
-                    <div class="post">
-                        <h3>Day 4</h3>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            <div class="bot"></div>
         </div>
     </body>
 </html>
