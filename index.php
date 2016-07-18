@@ -152,7 +152,7 @@
                                         <p>To bring/submit:</p>
                                         <ul>
                                             <li>
-                                                <input type="checkbox" name="moc-step" value="step"> *Payment receipt (from <u>Step 4</u>)
+                                                <input type="checkbox" name="moc-step" value="step" id="moc-51"> *Payment receipt (from <u>Step 4</u>)
                                             </li>
                                         </ul>
                                         
