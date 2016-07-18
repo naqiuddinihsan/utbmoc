@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html manifest="utbmoc.manifest">
     <head>
-        <title>Checklist</title>
+        <title>MO Checklist</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <link rel="stylesheet" href="style.css" />        
         <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,900" rel="stylesheet">
+        
+        <!--Cosmetic-->
         <link rel="icon" href="http://www.utb.edu.bn/favicon.ico" type="image/x-icon">
         <meta name="apple-mobile-web-app-capable" content="yes">
-        <link rel="apple-touch-icon" href="/icon196.png">
+        <link rel="apple-touch-icon" href="touch-icon-iphone-retina.png">
+        
+        <!--Db-->
         <script src="https://utbmoc.herokuapp.com/pouchdb/5.4.5/pouchdb.min.js"></script>
         <script>
           var db = new PouchDB('my_database');
         </script>
+        
     </head>
     <body>
         <div class="moc-sandbox">
@@ -24,7 +29,7 @@
                 <div class="moc-mid">
                     <div class="moc-banner">
                         <p>Hi! This app will guide you through the process 😀</p>
-                        <a href="https://www.dropbox.com/s/f6h3dbvdukyfajl/utbmo2k16_ow_d1.pdf?dl=0">PDF Link (900kB)</a>
+                        <a href="https://www.dropbox.com/s/f6h3dbvdukyfajl/utbmo2k16_ow_d1.pdf?dl=0">PDF Link (900kB)</a>                        
                         <input type="text"> Test Box
                     </div>
                     <div class="moc-canvas">
@@ -220,5 +225,36 @@
                 <div class="moc-bot"></div>
             </div>
         </div>
+
+        <!--Cookie-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+            <script src="http://cdn.jsdelivr.net/jquery.cookie/1.4.0/jquery.cookie.min.js"></script>
+
+            <script>
+              $("#checkAll").on("change", function() {
+                $(':checkbox').not(this).prop('checked', this.checked);
+              });
+
+              $(":checkbox").on("change", function(){
+                var checkboxValues = {};
+                $(":checkbox").each(function(){
+                  checkboxValues[this.id] = this.checked;
+                });
+                $.cookie('checkboxValues', checkboxValues, { expires: 7, path: '/' })
+              });
+
+              function repopulateCheckboxes(){
+                var checkboxValues = $.cookie('checkboxValues');
+                if(checkboxValues){
+                  Object.keys(checkboxValues).forEach(function(element) {
+                    var checked = checkboxValues[element];
+                    $("#" + element).prop('checked', checked);
+                  });
+                }
+              }
+
+              $.cookie.json = true;
+              repopulateCheckboxes();
+            </script>
     </body>
 </html>

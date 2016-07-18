@@ -17,6 +17,9 @@ NETWORK:
 # All URLs that start with the following lines
 # are whitelisted.
 http://utbmoc.herokuapp.com/
+https://www.dropbox.com/
+http://cdn.jsdelivr.net/
+http://ajax.googleapis.com/
 # http://www.example.org/otherexamplepath/
  
 CACHE:
