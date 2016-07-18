@@ -4,6 +4,7 @@ html, body {
     background: #E8EAF6;
     color: #757575;
 */
+    
 }
 
 html, body, input {
@@ -12,7 +13,7 @@ html, body, input {
 
 a {
     text-decoration: none;
-    color: white;
+/*    color: white;*/
 }
 
 h3, p {
@@ -21,6 +22,15 @@ h3, p {
 
 p {
     color: #666;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    padding-bottom: 12px; 
+}
+
+p, ul, ol, li, a {
+    font-size: 13px;
 }
 
 input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
@@ -64,15 +74,19 @@ button:active {
 }
      
 .moc-header {
-    background: #6B3E85;
+/*    background: #6B3E85;*/
+    background-color: #fff;
     height: 56px;
     color: #fff;
     text-align: center;
+    -webkit-box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
 }
 
 .moc-header h2 {
     line-height: 56px;
     margin: 0;
+    color: #6B3E85;
 }
 
 .moc-mid {
@@ -114,7 +128,7 @@ button:active {
     margin-top: 0;
 }
 
-.moc-post ul {
+.moc-post ul, .moc-post ol {
     -webkit-padding-start: 0px;
 }
 

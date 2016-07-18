@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html manifest="utbmoc.manifest">
+<!--<html manifest="utbmoc.manifest">-->
+<html>
     <head>
         <title>MO Checklist</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -29,12 +30,12 @@
                 <div class="moc-mid">
                     <div class="moc-banner">
                         <p>Hi! This app will guide you through the process 😀</p>
-                        <a href="https://www.dropbox.com/s/f6h3dbvdukyfajl/utbmo2k16_ow_d1.pdf?dl=0">PDF Link (900kB)</a>                        
+                        <a href="https://www.dropbox.com/s/f6h3dbvdukyfajl/utbmo2k16_ow_d1.pdf?dl=0">PDF Link (900kB)</a>
                         <input type="text"> Test Box
                     </div>
                     <div class="moc-canvas">
                         <div class="moc-post">
-                            <h3>&raquo; Day 1</h3>
+                            <h3>&raquo; Day 1: </h3>
                             <p>
                                 <ul>                                    
                                     <li>
@@ -91,7 +92,9 @@
                                         </h4>
                                         <h5>Location: GF.31</h5>
                                         <p>To-bring:</p>
-                                        <input type="checkbox" name="moc-tobring3a" value="passphot"> Softcopy of passport-sized Photo
+                                        <ul>                                            
+                                            <li><input type="checkbox" name="moc-tobring3a" value="passphot"> Softcopy of passport-sized Photo</li>
+                                        </ul>
                                         </div>
                                     </li>
                                         
@@ -124,7 +127,7 @@
                                             STEP #4 - PAY Fees
                                         </h4>
                                         <h5>Location: GF.27/28 &amp; GF.29</h5>
-                                        <p>To-bring:</p>
+                                        <p>To bring:</p>
                                         <ul>
                                             <li><input type="checkbox" name="moc-tobring4" value="tobring"> IC</li>
                                             <li><input type="checkbox" name="moc-tobring4" value="tobring"> Offer letter</li>
@@ -140,53 +143,53 @@
                                             STEP #5 - COLLECT Orientation Pack
                                         </h4>
                                         <h5>Location: Concourse Hall</h5>
-                                        <p>To bring/submit:
-                                            <ul>
-                                                <li>
-                                                    <input type="checkbox" name="moc-step" value="step"> *Payment receipt (from <b>Step 4</b>)
-                                                </li>
-                                            </ul>
-                                        </p>
-                                        <p>Inside the orientation pack, you should have:
-                                            <ol>
-                                                <li>
-                                                    <input type="checkbox" name="moc-op" value="shirt">
-                                                    Official UTB Shirt
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="moc-op" value="shirt">
-                                                    Rumpun UTB Shirt
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="moc-op" value="shirt">
-                                                    UTB Badge
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="moc-op" value="shirt">
-                                                    UTB String bag
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="moc-op" value="shirt">
-                                                    Umbrella
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="moc-op" value="shirt">
-                                                    Pen
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="moc-op" value="shirt">
-                                                    UTB Lanyard
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="moc-op" value="shirt">
-                                                    UTB Notebook*
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="moc-op" value="shirt">
-                                                    Car shade
-                                                </li>
-                                            </ol>
-                                        </p>
+                                        <p>To bring/submit:</p>
+                                        <ul>
+                                            <li>
+                                                <input type="checkbox" name="moc-step" value="step"> *Payment receipt (from <b>Step 4</b>)
+                                            </li>
+                                        </ul>
+                                        
+                                        <p>Inside the orientation pack, you should have:</p>
+                                        <ol>
+                                            <li>
+                                                <input type="checkbox" name="moc-op" value="shirt">
+                                                Official UTB Shirt
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="moc-op" value="shirt">
+                                                Rumpun UTB Shirt
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="moc-op" value="shirt">
+                                                UTB Badge
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="moc-op" value="shirt">
+                                                UTB String bag
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="moc-op" value="shirt">
+                                                Umbrella
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="moc-op" value="shirt">
+                                                Pen
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="moc-op" value="shirt">
+                                                UTB Lanyard
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="moc-op" value="shirt">
+                                                UTB Notebook*
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" name="moc-op" value="shirt"> 
+                                                Car shade
+                                            </li>
+                                        </ol>
+                                        
                                         </div>
                                     </li>
                                         
