@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--<html manifest="utbmoc.manifest">-->
-<html>
+<html manifest="utbmoc.manifest">
+<!--<html>-->
     <head>
         <title>MO Checklist</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -101,7 +101,7 @@
                                         <h5>Location: GF.31</h5>
                                         <p>To-bring:</p>
                                         <ul>                                            
-                                            <li><input type="checkbox" name="moc-tobring3a" value="passphot"> Softcopy of passport-sized Photo</li>
+                                            <li><input type="checkbox" name="moc-tobring3a" value="passphot" id="moc-s3a1"> Softcopy of passport-sized Photo</li>
                                         </ul>
                                         </div>
                                     </li>
@@ -116,11 +116,11 @@
                                         <h5>Location: Teratak Putih</h5>
                                         <p>To-bring:</p>
                                         <ul>
-                                            <li><input type="checkbox" name="moc-tobring3b1" value="tobring"> <em>Photocopy</em> of Offer Letter</li>
-                                            <li><input type="checkbox" name="moc-tobring3b" value="tobring"> Two (2x) Passport-sized photo</li>
-                                            <li><input type="checkbox" name="moc-tobring3b" value="tobring"> Two (2x) copies of ID Card</li>
-                                            <li><input type="checkbox" name="moc-tobring3b" value="tobring"> Insurance receipt</li>
-                                            <li><input type="checkbox" name="moc-tobring3b" value="tobring"> <em>Photocopy</em> of bank account details</li>
+                                            <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b1"> <em>Photocopy</em> of Offer Letter</li>
+                                            <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b2"> Two (2x) Passport-sized photo</li>
+                                            <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b3"> Two (2x) copies of ID Card</li>
+                                            <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b4"> Insurance receipt</li>
+                                            <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b5"> <em>Photocopy</em> of bank account details</li>
                                         </ul>
                                         </div>
                                     </li>
@@ -135,9 +135,9 @@
                                         <h5>Location: GF.27/28 &amp; GF.29</h5>
                                         <p>To bring:</p>
                                         <ul>
-                                            <li><input type="checkbox" name="moc-tobring4" value="tobring"> IC</li>
-                                            <li><input type="checkbox" name="moc-tobring4" value="tobring"> Offer letter</li>
-                                            <li><input type="checkbox" name="moc-tobring4" value="tobring"> Money (Cash-in-hand)</li>       
+                                            <li><input type="checkbox" name="moc-tobring4" value="tobring" id="moc-s41"> IC</li>
+                                            <li><input type="checkbox" name="moc-tobring4" value="tobring" id="moc-s42"> Offer letter</li>
+                                            <li><input type="checkbox" name="moc-tobring4" value="tobring" id="moc-s43"> Money (Cash-in-hand)</li>       
                                         </ul>
                                         </div>
                                     </li>
@@ -161,39 +161,39 @@
                                         <p>Inside the orientation pack, you should have:</p>
                                         <ol>
                                             <li>
-                                                <input type="checkbox" name="moc-op" value="shirt">
+                                                <input type="checkbox" name="moc-op" value="shirt" id="moc-op1">
                                                 Official UTB Shirt
                                             </li>
                                             <li>
-                                                <input type="checkbox" name="moc-op" value="shirt">
+                                                <input type="checkbox" name="moc-op" value="shirt" id="moc-op2">
                                                 Rumpun UTB Shirt
                                             </li>
                                             <li>
-                                                <input type="checkbox" name="moc-op" value="shirt">
+                                                <input type="checkbox" name="moc-op" value="shirt" id="moc-op3">
                                                 UTB Badge
                                             </li>
                                             <li>
-                                                <input type="checkbox" name="moc-op" value="shirt">
+                                                <input type="checkbox" name="moc-op" value="shirt" id="moc-op4">
                                                 UTB String bag
                                             </li>
                                             <li>
-                                                <input type="checkbox" name="moc-op" value="shirt">
+                                                <input type="checkbox" name="moc-op" value="shirt" id="moc-op5">
                                                 Umbrella
                                             </li>
                                             <li>
-                                                <input type="checkbox" name="moc-op" value="shirt">
+                                                <input type="checkbox" name="moc-op" value="shirt" id="moc-op6">
                                                 Pen
                                             </li>
                                             <li>
-                                                <input type="checkbox" name="moc-op" value="shirt">
+                                                <input type="checkbox" name="moc-op" value="shirt" id="moc-op7">
                                                 UTB Lanyard
                                             </li>
                                             <li>
-                                                <input type="checkbox" name="moc-op" value="shirt">
+                                                <input type="checkbox" name="moc-op" value="shirt" id="moc-op8">
                                                 UTB Notebook*
                                             </li>
                                             <li>
-                                                <input type="checkbox" name="moc-op" value="shirt"> 
+                                                <input type="checkbox" name="moc-op" value="shirt" id="moc-op9"> 
                                                 Car shade
                                             </li>
                                         </ol>
