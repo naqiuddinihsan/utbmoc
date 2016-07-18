@@ -1,8 +1,10 @@
 html, body {
     margin: 0 !important;
     font-family: 'Roboto', sans-serif;
+/*
     background: #E8EAF6;
     color: #757575;
+*/
 }
 
 input {
@@ -17,17 +19,6 @@ a {
 h3, p {
     margin-top: 0;
 }
-
-.scp-post h3 {    
-    font-size: 20px;
-    margin-bottom: 8px;
-    color: #212121;
-}
-
-.scp-post p {
-    font-size: 16px;
-}
-
 
 input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
     background: #FA5153;
@@ -45,78 +36,46 @@ button:active {
     opacity: .9;
 }
 
-.scp-dash {
+
+.sandbox {
     width: 100%;
-    margin: 0 auto;
+    height: 100%;
 }
 
-.scp-top, .scp-mid, .scp-btm {
-    float: left;
-    width: 100%;
-}
-
-.scp-top {
+.top {
     position: fixed;
+    width: 100%;
 }
-
-.scp-hdr {
-    background: #E91E63;
+     
+.header {
+    background: #6B3E85;
     height: 56px;
     color: #fff;
     text-align: center;
-    -webkit-box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
-    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
 }
 
-.scp-hdr h2 {
+.header h2 {
     line-height: 56px;
     margin: 0;
-    padding: 0;
-    font-family: 'Oswald', sans-serif;
+}
+.mid {
+    
+}
+.banner {
+    height: 320px;    
+    background: blue;
 }
 
-.scp-hdr span {
-    background: #fff;
-    color: #E91E63;
-    font-size: 10px;
-    padding: 3px 5px;
-    border-radius: 3px;
-    text-transform: uppercase;
+.canvas {
+    padding: 0 8px;
 }
 
-.scp-mid {
-    margin-top: 56px;
-/*    padding-top: 8px;*/
-}
-.scp-btm {
-    height: 64px;
-    background: orange;
+.post {
+    background: red;
+    margin: 0 auto 8px auto;     
+    padding: 8px;
 }
 
-.scp-feed {
-    margin-top: 16px;
+.bot {
+        
 }
-
-.scp-post {
-    width: 85%;
-    margin: 0 auto 16px auto;
-    background: #fff;    
-    padding: 16px;
-/*    border-bottom: 1px solid #999999;*/
-}
-
-.scp-post-title {
-    float: left;
-    height: 64px;
-    width: 100%;
-}
-.scp-post-body {
-    float: left;
-    height: 180px;
-    width: 100%;
-}
-
-#demo {
-    color: #FA5153;
-}
-
