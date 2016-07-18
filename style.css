@@ -1,14 +1,13 @@
 html, body {
     margin: 0 !important;
-    font-family: 'Roboto', sans-serif;
 /*
     background: #E8EAF6;
     color: #757575;
 */
 }
 
-input {
-    font-family: 'Roboto', sans-serif;
+html, body, input {
+    font-family: 'Arial', sans-serif;
 }
 
 a {
@@ -47,6 +46,7 @@ button:active {
 
 .moc-top, .moc-mid, .moc-bot {
     width: 100%;
+    min-width: 600px;
 }
 
 .moc-mid {
@@ -70,6 +70,7 @@ button:active {
     line-height: 56px;
     margin: 0;
 }
+
 .moc-mid {
     
 }
@@ -86,11 +87,20 @@ button:active {
 .moc-post {
     background: red;
     margin: 0 auto 8px auto;     
-    padding: 8px;
+    padding: 24px;
+}
+
+.moc-post p {
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .moc-post h3 {
     font-weight: bold;
+}
+
+.moc-post ul li {
+    list-style-type: none;
 }
 
 .moc-bot {
