@@ -16,7 +16,7 @@
         
         <!--Splash-->
         <!-- iPhone 5 startup image -->
-        <link href="utbmoc_splash-640x1096.png"
+        <link href="splash/utbmoc_splash-640x1096.png"
           media="(device-width: 320px) and (device-height: 568px)
                  and (-webkit-device-pixel-ratio: 2)"
           rel="apple-touch-startup-image">
