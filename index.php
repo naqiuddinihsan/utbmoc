@@ -12,6 +12,7 @@
         <link rel="icon" href="http://www.utb.edu.bn/favicon.ico" type="image/x-icon">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="apple-touch-icon" href="touch-icon-iphone-retina.png">
+        <meta name="apple-mobile-web-app-status-bar-style" content="white">
         
         <!--Splash-->
         <!-- iPhone 5 startup image -->
