@@ -8,6 +8,10 @@
         <link rel="icon" href="http://www.utb.edu.bn/favicon.ico" type="image/x-icon">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="apple-touch-icon" href="/icon196.png">
+        <script src="https://utbmoc.herokuapp.com/pouchdb/5.4.5/pouchdb.min.js"></script>
+        <script>
+          var db = new PouchDB('my_database');
+        </script>
     </head>
     <body>
         <div class="moc-sandbox">
@@ -21,6 +25,7 @@
                     <div class="moc-banner">
                         <p>Hi! This app will guide you through the process 😀</p>
                         <a href="https://www.dropbox.com/s/f6h3dbvdukyfajl/utbmo2k16_ow_d1.pdf?dl=0">PDF Link (900kB)</a>
+                        <input type="text"> Test Box
                     </div>
                     <div class="moc-canvas">
                         <div class="moc-post">
