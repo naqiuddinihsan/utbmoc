@@ -1,17 +1,8 @@
 CACHE MANIFEST
-# This is a comment.
-# Cache manifest version 0.0.1
-# If you change the version number in this comment,
-# the cache manifest is no longer byte-for-byte
-# identical.
- 
-/index.php
-/style.css
-# demoimages/clownfish.jpg
-# demoimages/clownfishsmall.jpg
-# demoimages/flowingrock.jpg
-# demoimages/flowingrocksmall.jpg
-# demoimages/stones.jpg
+# v1.0
+
+index.php
+splash/utbmoc_splash-640x1096.png
  
 NETWORK:
 # All URLs that start with the following lines
@@ -20,7 +11,6 @@ http://utbmoc.herokuapp.com/
 https://www.dropbox.com/
 http://cdn.jsdelivr.net/
 http://ajax.googleapis.com/
-# http://www.example.org/otherexamplepath/
  
 CACHE:
 # Additional items to cache.

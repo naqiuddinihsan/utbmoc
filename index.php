@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--<html manifest="utbmoc.manifest">-->
-<html>
+<html manifest="utbmoc.manifest">
+<!--<html>-->
     <head>
         <title>MO Checklist</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -13,11 +13,12 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="apple-touch-icon" href="touch-icon-iphone-retina.png">
         
-        <!--Db-->
-        <script src="https://utbmoc.herokuapp.com/pouchdb/5.4.5/pouchdb.min.js"></script>
-        <script>
-          var db = new PouchDB('my_database');
-        </script>
+        <!--Splash-->
+        <!-- iPhone 5 startup image -->
+        <link href="utbmoc_splash-640x1096.png"
+          media="(device-width: 320px) and (device-height: 568px)
+                 and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
         
     </head>
     <body>
