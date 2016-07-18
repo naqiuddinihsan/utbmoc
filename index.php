@@ -22,6 +22,11 @@
                  and (-webkit-device-pixel-ratio: 2)"
           rel="apple-touch-startup-image">
 -->
+        <script type="text/javascript">
+            $(function() {
+                document.addEventListener("touchmove", function(e){ e.preventDefault(); }, false);
+            });
+        </script>
         
     </head>
     <body>
