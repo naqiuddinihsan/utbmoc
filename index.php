@@ -26,6 +26,10 @@
             $(function() {
                 document.addEventListener("touchmove", function(e){ e.preventDefault(); }, false);
             });
+            
+            if (window.matchMedia('(display-mode: standalone)').matches) {
+              console.log("Thank you for installing our app!");
+            }
         </script>
         
     </head>
