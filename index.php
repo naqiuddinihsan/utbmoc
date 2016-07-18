@@ -20,6 +20,7 @@
                 <div class="moc-mid">
                     <div class="moc-banner">
                         <p>Hi! This app will guide you through the process 😀</p>
+                        <a href="https://www.dropbox.com/s/f6h3dbvdukyfajl/utbmo2k16_ow_d1.pdf?dl=0">PDF Link (900kB)</a>
                     </div>
                     <div class="moc-canvas">
                         <div class="moc-post">
