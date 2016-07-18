@@ -120,8 +120,10 @@ button:active {
 }
 
 .moc-post p {
+/*
     text-align: justify;
     text-justify: inter-word;
+*/
 }
 
 .moc-post h3 {
