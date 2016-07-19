@@ -14,14 +14,11 @@
         <link rel="apple-touch-icon" href="touch-icon-iphone-retina.png">
         <meta name="apple-mobile-web-app-status-bar-style" content="white">
         
+        <!-- Prevent overscroll-->
         <script type="text/javascript">
-            $(function() {
-                document.addEventListener("touchmove", function(e){ e.preventDefault(); }, false);
-            });
-            
-            if (window.matchMedia('(display-mode: standalone)').matches) {
-              console.log("Thank you for installing our app!");
-            }
+             $('body').on('touchmove', function (e) {
+                 if (!$('.scrollable').has($(e.target)).length) e.preventDefault();
+             });
         </script>
         
     </head>
@@ -217,6 +214,11 @@
                                     </li>
                                 </ul>
                         </div>
+                        <div id="ihsan" class="post">
+                            Developed by
+                            <img src="nqdi.png" />
+                            <img src="do.main.png" />
+                        </div>
 <!--
                         <div class="moc-post">
                             <h3>&raquo; Day 2</h3>
@@ -239,33 +241,33 @@
 
         <!--Cookie-->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-            <script src="http://cdn.jsdelivr.net/jquery.cookie/1.4.0/jquery.cookie.min.js"></script>
+        <script src="http://cdn.jsdelivr.net/jquery.cookie/1.4.0/jquery.cookie.min.js"></script>
 
-            <script>
-              $("#checkAll").on("change", function() {
-                $(':checkbox').not(this).prop('checked', this.checked);
+        <script>
+          $("#checkAll").on("change", function() {
+            $(':checkbox').not(this).prop('checked', this.checked);
+          });
+
+          $(":checkbox").on("change", function(){
+            var checkboxValues = {};
+            $(":checkbox").each(function(){
+              checkboxValues[this.id] = this.checked;
+            });
+            $.cookie('checkboxValues', checkboxValues, { expires: 7, path: '/' })
+          });
+
+          function repopulateCheckboxes(){
+            var checkboxValues = $.cookie('checkboxValues');
+            if(checkboxValues){
+              Object.keys(checkboxValues).forEach(function(element) {
+                var checked = checkboxValues[element];
+                $("#" + element).prop('checked', checked);
               });
+            }
+          }
 
-              $(":checkbox").on("change", function(){
-                var checkboxValues = {};
-                $(":checkbox").each(function(){
-                  checkboxValues[this.id] = this.checked;
-                });
-                $.cookie('checkboxValues', checkboxValues, { expires: 7, path: '/' })
-              });
-
-              function repopulateCheckboxes(){
-                var checkboxValues = $.cookie('checkboxValues');
-                if(checkboxValues){
-                  Object.keys(checkboxValues).forEach(function(element) {
-                    var checked = checkboxValues[element];
-                    $("#" + element).prop('checked', checked);
-                  });
-                }
-              }
-
-              $.cookie.json = true;
-              repopulateCheckboxes();
-            </script>
+          $.cookie.json = true;
+          repopulateCheckboxes();
+        </script>
     </body>
 </html>
