@@ -156,11 +156,11 @@
                             <!--SLIDES-->
                             <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 620px; overflow: hidden;">
                                 <div data-p="225.00" style="display: none;">                                    
-                                        <img data-u="image" src="img/utbmoc_banner_welcome.jpg" />
+                                        <img data-u="image" src="img/UTBMOC_Banner_welcome.jpg" />
                                 </div>
                                 <div data-p="225.00" style="display: none;">
                                     <a href="http://pmutb.slack.com" target="_blank">
-                                        <img data-u="image" src="img/utbmoc_banner_slack.jpg" />
+                                        <img data-u="image" src="img/UTBMOC_Banner_slack.jpg" />
                                     </a>
                                 </div>
                                 </div>
