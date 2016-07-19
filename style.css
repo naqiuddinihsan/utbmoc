@@ -74,6 +74,7 @@ button:active {
     top: 0;
     -webkit-box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
     box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
+    z-index: 1200 !important;
 }
      
 .moc-header {
@@ -104,20 +105,15 @@ button:active {
 }
 
 .moc-banner {
-/*    height: 320px;    */
-    padding: 12px;
     text-align: center;
 }
 
 .moc-canvas {
-/*    padding: 0 8px;*/
     padding-top: 24px;
 }
 
 .moc-post {
-/*    background: #E8EAF6;*/
     margin: 0 auto 8px auto;     
-/*    padding: 24px;*/
 }
 
 .moc-post p {
@@ -133,7 +129,6 @@ button:active {
 }
 
 .moc-post h4 {
-/*    color: #00B5C3;*/
     color: #364D5B;
     margin: 0;
     
@@ -172,11 +167,9 @@ button:active {
 }
 
 .moc-step {
-/*    background: #F2F4F4;*/
     background: #fff;
     padding: 18px;
     margin-bottom: 12px;
-/*    border-radius: 4px;*/
 }
 
 .moc-step p {
@@ -192,8 +185,6 @@ button:active {
     margin-left: 12px;
     margin-right: 12px;
 }
-
-
 
 .ico-loc {
     background: url('moc_location.png');
