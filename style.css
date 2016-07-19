@@ -198,3 +198,15 @@ button:active {
 .ico-loc {
     background: url('moc_location.png');
 }
+
+dev-copyright {
+    margin: 0 auto;
+    background-image: url('nqdi.png');
+    height: 32px;
+    width: 32px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 8px;
+    transition: all ease-in-out 0.2s;
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
-<!--<html manifest="utbmoc.manifest">-->
-<html>
+<html manifest="utbmoc.manifest">
+<!--<html>-->
     <head>
         <title>MO Checklist</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -132,7 +132,7 @@
                                         </div>
                                     </li>
                                     
-                                    <!--STEP 5-->
+                                    <!--STEP 4-->
                                     <li>
                                         <div class="moc-step">
                                         <h4>
@@ -150,7 +150,7 @@
                                     </li>
                                     
                     
-                                    <!--STEP 6-->
+                                    <!--STEP 5-->
                                     <li>
                                         <div class="moc-step">
                                         <h4>
@@ -220,12 +220,11 @@
                                         </div>
                                     </li>
                                 </ul>
+                        <center>
+                                <img src="nqdi.png" alt="Naqiuddin Ihsan Amj" />
+                        </center>
                         </div>
-                        <div id="ihsan" class="post">
-                            Developed by
-                            <img src="nqdi.png" />
-                            <img src="do.main.png" />
-                        </div>
+                        
 <!--
                         <div class="moc-post">
                             <h3>&raquo; Day 2</h3>
