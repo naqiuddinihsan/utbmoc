@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <!--<html manifest="utbmoc.manifest">-->
 <html>
     <head>
@@ -147,7 +146,7 @@
                 </div>
                 <div class="moc-mid">
                     <div class="moc-banner">
-                        <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
+                        <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 620px; overflow: hidden; visibility: hidden;">
                             <!-- Loading Screen -->
                             <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
                                 <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
@@ -155,15 +154,15 @@
                             </div>
                             
                             <!--SLIDES-->
-                            <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
-                                <div data-p="225.00" style="display: none;">
-                                    <img data-u="image" src="img/purple.jpg" />
+                            <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 620px; overflow: hidden;">
+                                <div data-p="225.00" style="display: none;">                                    
+                                        <img data-u="image" src="img/utbmoc_banner_welcome.jpg" />
                                 </div>
                                 <div data-p="225.00" style="display: none;">
-                                    <img data-u="image" src="img/blue.jpg" />
+                                    <a href="http://pmutb.slack.com" target="_blank">
+                                        <img data-u="image" src="img/utbmoc_banner_slack.jpg" />
+                                    </a>
                                 </div>
-                                <div data-p="225.00" style="display: none;">
-                                    <img data-u="image" src="img/red.jpg" />
                                 </div>
                             </div>
                             <!-- Bullet Navigator -->
@@ -349,24 +348,11 @@
                                     </li>
                                 </ul>
                         <center>
+                            <a href="http://behance.net/naqiuddinihsan" target="_blank">
                                 <img src="nqdi.png" alt="Naqiuddin Ihsan Amj" />
+                            </a>
                         </center>
-                        </div>
-                        
-<!--
-                        <div class="moc-post">
-                            <h3>&raquo; Day 2</h3>
-                            <p></p>
-                        </div>
-                        <div class="moc-post">
-                            <h3>&raquo; Day 3</h3>
-                            <p></p>
-                        </div>
-                        <div class="moc-post">
-                            <h3>&raquo; Day 4</h3>
-                            <p></p>
-                        </div>
--->
+                        </div>                    
                     </div>
                 </div>
                 <div class="moc-bot"></div>
