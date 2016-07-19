@@ -70,7 +70,7 @@
                                             <input type="checkbox" name="moc-step" value="step" id="moc-step1">
                                             STEP #1 - OPEN Bank Account
                                         </h4>
-                                        <h5><div class="moc-ico ico-loc"></div>Location: <?php echo $moc_loc_s1;?></h5>
+                                        <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s1;?></h5>
                                         <p>For allowance purposes (applicable to Government Scholarship students only), if you do not have a Bank Account, please go to a bank and open up a new account</p>
                                         <p>If you already have a Bank account <b>OR</b> a Non-government Student, <br>please proceed to <u>Step 2</u></p>
                                         </div>
@@ -84,7 +84,7 @@
                                             <input type="checkbox" name="moc-step" value="step" id="moc-step2">
                                             STEP #2 - GET Insurance
                                         </h4>
-                                        <h5><div class="moc-ico ico-loc"></div>Location: <?php echo $moc_loc_s2;?></h5>
+                                        <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s2;?></h5>
                                         <p>All new students are advised to pay for insurance according to their Faculty/School before proceeding to <u>Step 3</u></p>
                                             <hr>
                                         <h6># Faculty of Engineering &raquo; Takaful Brunei Keluarga</h6>
@@ -105,7 +105,7 @@
                                             <input type="checkbox" name="moc-step" value="step" id="moc-step3a">
                                             STEP #3A - CREATE Student ID
                                         </h4>
-                                        <h5><div class="moc-ico ico-loc"></div>Location: <?php echo $moc_loc_s3a;?></h5>
+                                        <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s3a;?></h5>
                                         <p>To bring:</p>
                                         <ul>                                            
                                             <li><input type="checkbox" name="moc-tobring3a" value="passphot" id="moc-s3a1"> Softcopy of passport-sized Photo</li>
@@ -120,7 +120,7 @@
                                             <input type="checkbox" name="moc-step" value="step" id="moc-step3b">
                                             STEP #3B - REGISTER Course
                                         </h4>
-                                        <h5><div class="moc-ico ico-loc"></div>Location: <?php echo $moc_loc_s3b;?></h5>
+                                        <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s3b;?></h5>
                                         <p>To bring:</p>
                                         <ul>
                                             <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b1"> <em>Photocopy</em> of Offer Letter</li>
@@ -139,7 +139,7 @@
                                             <input type="checkbox" name="moc-step" value="step" id="moc-step4">
                                             STEP #4 - PAY Fees
                                         </h4>
-                                        <h5><div class="moc-ico ico-loc"></div>Location: <?php echo $moc_loc_s4;?></h5>
+                                        <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s4;?></h5>
                                         <p>To bring:</p>
                                         <ul>
                                             <li><input type="checkbox" name="moc-tobring4" value="tobring" id="moc-s41"> IC</li>
@@ -157,7 +157,7 @@
                                             <input type="checkbox" name="moc-step" value="step" id="moc-step5">
                                             STEP #5 - COLLECT Orientation Pack
                                         </h4>
-                                        <h5><div class="moc-ico ico-loc"></div>Location: <?php echo $moc_loc_s5;?></h5>
+                                        <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s5;?></h5>
                                         <p>To bring/submit:</p>
                                         <ul>
                                             <li>
@@ -215,7 +215,7 @@
                                             <input type="checkbox" name="moc-step" value="step" id="moc-step6">
                                             STEP #6 - VISIT CCA Booths
                                         </h4>
-                                        <h5><div class="moc-ico ico-loc"></div>Location: <?php echo $moc_loc_s6;?></h5>
+                                        <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s6;?></h5>
                                         <p>Head over to the Silver Jubilee Court and enjoy some astonishing performances from our clubs prepared just for you! Don't forget to sign up for your favorite clubs as well. See you there!</p>
                                         </div>
                                     </li>
