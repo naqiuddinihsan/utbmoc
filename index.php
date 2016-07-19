@@ -13,29 +13,7 @@
         <link rel="icon" href="http://www.utb.edu.bn/favicon.ico" type="image/x-icon">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="apple-touch-icon" href="touch-icon-iphone-retina.png">
-        <meta name="apple-mobile-web-app-status-bar-style" content="white">
-        
-        <!-- Prevent overscroll-->
-        <script type="text/javascript">
-             var selScrollable = '.scrollable';
-            // Uses document because document will be topmost level in bubbling
-            $(document).on('touchmove',function(e){
-              e.preventDefault();
-            });
-            // Uses body because jQuery on events are called off of the element they are
-            // added to, so bubbling would not work if we used document instead.
-            $('body').on('touchstart', selScrollable, function(e) {
-              if (e.currentTarget.scrollTop === 0) {
-                e.currentTarget.scrollTop = 1;
-              } else if (e.currentTarget.scrollHeight === e.currentTarget.scrollTop + e.currentTarget.offsetHeight) {
-                e.currentTarget.scrollTop -= 1;
-              }
-            });
-            // Stops preventDefault from being called on document if it sees a scrollable div
-            $('body').on('touchmove', selScrollable, function(e) {
-              e.stopPropagation();
-            });
-        </script>        
+        <meta name="apple-mobile-web-app-status-bar-style" content="white">       
     </head>
     <?php
         if (include("moc_data.php"))
@@ -290,27 +268,15 @@
           $.cookie.json = true;
           repopulateCheckboxes();
         </script>
-
-        <!--Overscroll fix-->
-        <script type="text/javascript">
-             var selScrollable = '.scrollable';
-            // Uses document because document will be topmost level in bubbling
-            $(document).on('touchmove',function(e){
-              e.preventDefault();
-            });
-            // Uses body because jQuery on events are called off of the element they are
-            // added to, so bubbling would not work if we used document instead.
-            $('body').on('touchstart', selScrollable, function(e) {
-              if (e.currentTarget.scrollTop === 0) {
-                e.currentTarget.scrollTop = 1;
-              } else if (e.currentTarget.scrollHeight === e.currentTarget.scrollTop + e.currentTarget.offsetHeight) {
-                e.currentTarget.scrollTop -= 1;
-              }
-            });
-            // Stops preventDefault from being called on document if it sees a scrollable div
+        <script>
+            
             $('body').on('touchmove', selScrollable, function(e) {
-              e.stopPropagation();
+                // Only block default if internal div contents are large enough to scroll
+                // Warning: scrollHeight support is not universal. (http://stackoverflow.com/a/15033226/40352)
+                if($(this)[0].scrollHeight > $(this).innerHeight()) {
+                    e.stopPropagation();
+                }
             });
-        </script>        
+        </script>
     </body>
 </html>
