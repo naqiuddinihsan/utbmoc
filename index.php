@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
-<html manifest="utbmoc.manifest">
-<!--<html>-->
+<!--<html manifest="utbmoc.manifest">-->
+<html>
     <head>
         <title>MO Checklist</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
