@@ -14,14 +14,6 @@
         <link rel="apple-touch-icon" href="touch-icon-iphone-retina.png">
         <meta name="apple-mobile-web-app-status-bar-style" content="white">
         
-        <!--Splash-->
-        <!-- iPhone 5 startup image -->
-<!--
-        <link href="splash/utbmoc_splash-640x1096.png"
-          media="(device-width: 320px) and (device-height: 568px)
-                 and (-webkit-device-pixel-ratio: 2)"
-          rel="apple-touch-startup-image">
--->
         <script type="text/javascript">
             $(function() {
                 document.addEventListener("touchmove", function(e){ e.preventDefault(); }, false);
