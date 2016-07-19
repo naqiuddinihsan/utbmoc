@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <!--<html manifest="utbmoc.manifest">-->
 <html>
     <head>
@@ -19,20 +20,26 @@
              $('body').on('touchmove', function (e) {
                  if (!$('.scrollable').has($(e.target)).length) e.preventDefault();
              });
-        </script>
-        
+        </script>        
     </head>
+    <?php
+        if (include("moc_data.php"))
+            include("moc_data.php");
+        else
+        $moc_loc_s1 = $moc_loc_s2 = $moc_loc_s3a = $moc_loc_s3b = $moc_loc_s4 = $moc_loc_s5 = $moc_loc_s6 = "(Internet connection needed)";
+    ?>
     <body>
         <div class="moc-sandbox">
             <div class="moc-platform">
                 <div class="moc-top">
-                    <div class="moc-header">
+                    <div class="moc-header">                        
                         <a href="#">
                         <h2>                            
                             <img src="touch-icon-iphone-retina.png" alt="MO"/> Checklist
                         </h2>
                         </a>
                     </div>
+                    
                 </div>
                 <div class="moc-mid">
 <!--
@@ -63,7 +70,7 @@
                                             <input type="checkbox" name="moc-step" value="step" id="moc-step1">
                                             STEP #1 - OPEN Bank Account
                                         </h4>
-                                        <h5>Location: ???</h5>
+                                        <h5><div class="moc-ico ico-loc"></div>Location: <?php echo $moc_loc_s1;?></h5>
                                         <p>For allowance purposes (applicable to Government Scholarship students only), if you do not have a Bank Account, please go to a bank and open up a new account</p>
                                         <p>If you already have a Bank account <b>OR</b> a Non-government Student, <br>please proceed to <u>Step 2</u></p>
                                         </div>
@@ -77,7 +84,7 @@
                                             <input type="checkbox" name="moc-step" value="step" id="moc-step2">
                                             STEP #2 - GET Insurance
                                         </h4>
-                                        <h5>Location: GF.30</h5>
+                                        <h5><div class="moc-ico ico-loc"></div>Location: <?php echo $moc_loc_s2;?></h5>
                                         <p>All new students are advised to pay for insurance according to their Faculty/School before proceeding to <u>Step 3</u></p>
                                             <hr>
                                         <h6># Faculty of Engineering &raquo; Takaful Brunei Keluarga</h6>
@@ -98,7 +105,7 @@
                                             <input type="checkbox" name="moc-step" value="step" id="moc-step3a">
                                             STEP #3A - CREATE Student ID
                                         </h4>
-                                        <h5>Location: GF.31</h5>
+                                        <h5><div class="moc-ico ico-loc"></div>Location: <?php echo $moc_loc_s3a;?></h5>
                                         <p>To bring:</p>
                                         <ul>                                            
                                             <li><input type="checkbox" name="moc-tobring3a" value="passphot" id="moc-s3a1"> Softcopy of passport-sized Photo</li>
@@ -113,7 +120,7 @@
                                             <input type="checkbox" name="moc-step" value="step" id="moc-step3b">
                                             STEP #3B - REGISTER Course
                                         </h4>
-                                        <h5>Location: Teratak Putih</h5>
+                                        <h5><div class="moc-ico ico-loc"></div>Location: <?php echo $moc_loc_s3b;?></h5>
                                         <p>To bring:</p>
                                         <ul>
                                             <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b1"> <em>Photocopy</em> of Offer Letter</li>
@@ -132,7 +139,7 @@
                                             <input type="checkbox" name="moc-step" value="step" id="moc-step4">
                                             STEP #4 - PAY Fees
                                         </h4>
-                                        <h5>Location: GF.27/28 &amp; GF.29</h5>
+                                        <h5><div class="moc-ico ico-loc"></div>Location: <?php echo $moc_loc_s4;?></h5>
                                         <p>To bring:</p>
                                         <ul>
                                             <li><input type="checkbox" name="moc-tobring4" value="tobring" id="moc-s41"> IC</li>
@@ -150,7 +157,7 @@
                                             <input type="checkbox" name="moc-step" value="step" id="moc-step5">
                                             STEP #5 - COLLECT Orientation Pack
                                         </h4>
-                                        <h5>Location: Concourse Hall</h5>
+                                        <h5><div class="moc-ico ico-loc"></div>Location: <?php echo $moc_loc_s5;?></h5>
                                         <p>To bring/submit:</p>
                                         <ul>
                                             <li>
@@ -208,7 +215,7 @@
                                             <input type="checkbox" name="moc-step" value="step" id="moc-step6">
                                             STEP #6 - VISIT CCA Booths
                                         </h4>
-                                        <h5>Location: Silver Jubilee Court</h5>
+                                        <h5><div class="moc-ico ico-loc"></div>Location: <?php echo $moc_loc_s6;?></h5>
                                         <p>Head over to the Silver Jubilee Court and enjoy some astonishing performances from our clubs prepared just for you! Don't forget to sign up for your favorite clubs as well. See you there!</p>
                                         </div>
                                     </li>

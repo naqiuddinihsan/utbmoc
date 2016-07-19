@@ -2,6 +2,7 @@ CACHE MANIFEST
 # v1.0
 
 index.php
+moc_data.php
 style.css
 touch-icon-iphone-retina.png
  
@@ -14,8 +15,7 @@ http://cdn.jsdelivr.net/
 http://ajax.googleapis.com/
  
 CACHE:
-# Additional items to cache.
-# demoimages/stonessmall.jpg
+moc_location.png
  
 FALLBACK:
 # demoimages/currentImg.jpg images/stockImage.jpg

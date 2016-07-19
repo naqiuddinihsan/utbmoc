@@ -72,6 +72,8 @@ button:active {
 .moc-top {
     position: fixed;
     top: 0;
+    -webkit-box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
 }
      
 .moc-header {
@@ -80,8 +82,7 @@ button:active {
     height: 56px;
     color: #fff;
     text-align: center;
-    -webkit-box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
-    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
+    
 }
 
 .moc-header h2 {
@@ -139,7 +140,18 @@ button:active {
 }
 
 .moc-post h5 {
-    margin-top: 0;    
+    margin-top: 0;
+    line-height: 17px;
+    font-size: 13px;
+}
+
+.moc-ico {
+    height: 17px;
+    width: 17px;
+    background-size: 17px;
+    background-position: center;
+    margin: 0 4px 0 17px;
+    float: left;
 }
 
 .moc-post h6 {
@@ -179,4 +191,10 @@ button:active {
     border-radius: 4px;
     margin-left: 12px;
     margin-right: 12px;
+}
+
+
+
+.ico-loc {
+    background: url('moc_location.png');
 }
