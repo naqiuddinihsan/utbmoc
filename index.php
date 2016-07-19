@@ -155,15 +155,24 @@
                             
                             <!--SLIDES-->
                             <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 620px; overflow: hidden;">
-                                <div data-p="225.00" style="display: none;">                                    
-                                        <img data-u="image" src="img/UTBMOC_Banner_welcome.jpg" />
-                                </div>
                                 <div data-p="225.00" style="display: none;">
                                     <a href="http://pmutb.slack.com" target="_blank">
                                         <img data-u="image" src="img/UTBMOC_Banner_slack.jpg" />
                                     </a>
+                                </div>                                
+                                <div data-p="225.00" style="display: none;">                                    
+                                        <img data-u="image" src="img/UTBMOC_Banner_help.jpg" />
                                 </div>
+                                <div data-p="225.00" style="display: none;">                                    
+                                        <img data-u="image" src="img/UTBMOC_Banner_welcome.jpg" />
                                 </div>
+                                <div data-p="225.00" style="display: none;">                                    
+                                        <img data-u="image" src="img/UTBMOC_Banner_photocopy.jpg" />
+                                </div>
+                                <div data-p="225.00" style="display: none;">                                    
+                                        <img data-u="image" src="img/UTBMOC_Banner_passphot.jpg" />
+                                </div>
+                                
                             </div>
                             <!-- Bullet Navigator -->
                             <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
