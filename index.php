@@ -69,6 +69,7 @@
                 //responsive code end
             });
         </script>
+        <link rel="stylesheet" href="/css/lightbox.min.css">
         
         <style>
 
@@ -145,7 +146,7 @@
                     
                 </div>
                 <div class="moc-mid">
-                    <div class="moc-banner">
+                    <div class="moc-banner">                        
                         <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 620px; overflow: hidden; visibility: hidden;">
                             <!-- Loading Screen -->
                             <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
@@ -166,8 +167,10 @@
                                 <div data-p="225.00" style="display: none;">                                    
                                         <img data-u="image" src="img/UTBMOC_Banner_welcome.jpg" />
                                 </div>
-                                <div data-p="225.00" style="display: none;">                                    
+                                <div data-p="225.00" style="display: none;">
+                                    <a href="img/UTBMOC_Banner_photocopy.jpg" data-lightbox="map">
                                         <img data-u="image" src="img/UTBMOC_Banner_photocopy.jpg" />
+                                    </a>
                                 </div>
                                 <div data-p="225.00" style="display: none;">                                    
                                         <img data-u="image" src="img/UTBMOC_Banner_passphot.jpg" />
@@ -408,5 +411,6 @@
                 }
             });
         </script>
+        <script src="/js/lightbox-plus-jquery.min.js"></script>
     </body>
 </html>
