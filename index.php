@@ -72,7 +72,6 @@
         <link rel="stylesheet" href="/css/lightbox.min.css">
         
         <style>
-
             /* jssor slider bullet navigator skin 05 css */
             /*
             .jssorb05 div           (normal)
@@ -123,8 +122,7 @@
             .jssora22r:hover { background-position: -190px -31px; }
             .jssora22l.jssora22ldn { background-position: -250px -31px; }
             .jssora22r.jssora22rdn { background-position: -310px -31px; }
-        </style>
-    
+        </style>    
     </head>
     <?php
         if (include("moc_data.php"))
@@ -146,6 +144,8 @@
                     
                 </div>
                 <div class="moc-mid">
+                    
+                    <!--AD BANNER-->
                     <div class="moc-banner">                        
                         <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 620px; overflow: hidden; visibility: hidden;">
                             <!-- Loading Screen -->
@@ -187,11 +187,14 @@
                             <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
                         </div>  
                     </div>
+                    
+                    <!--CANVAS-->
                     <div class="moc-canvas">
                         <div class="moc-post">
                             <h3>&raquo; Day 1: "Registration" &laquo;</h3>
                                 <ul>                                    
                                     <li>
+<!--
                                         <div class="moc-step">
                                         <h4>
                                             <input type="checkbox" name="moc-step" value="step" checked="checked">
@@ -199,6 +202,7 @@
                                         </h4>
                                         <p></p>
                                         </div>
+-->
                                     </li>
                                         
                                     

@@ -1,7 +1,7 @@
 CACHE MANIFEST
 # v1.0
 index.php
-moc_data.php
+
 style.css
 touch-icon-iphone-retina.png
 img/a22.png
@@ -15,6 +15,7 @@ NETWORK:
 # http://utbmoc.herokuapp.com/
 http://cdn.jsdelivr.net/
 http://ajax.googleapis.com/
+http://utbmoc.herokuapp.com/moc_data.php
  
 CACHE:
 nqdi.png
