@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html manifest="utbmoc.manifest">
-<!--<html>-->
+<!--<html manifest="utbmoc.manifest">-->
+<html>
     <head>
         <title>Checklist</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -47,7 +47,12 @@
                 
                 <!--MOC MID-->
                 <div id="randomdiv" class="moc-mid">                    
-                    <!--AD BANNER-->                    
+                    <!--AD BANNER-->
+                    <div class="banner">
+                        <a href="img/utbmoc_layout.png">
+                            <img src="img/utbmoc_layout.png" alt="layout"/>
+                        </a>
+                    </div>
                     
                     <!--CANVAS-->
                     <div class="moc-canvas">                        

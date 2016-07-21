@@ -9,6 +9,7 @@ img/moc_location.png
 js/jquery.min.js
 js/jquery.cookie.min.js
 res/moc_banner.php
+img/utbmoc_layout.png
 
 NETWORK:
 # All URLs that start with the following lines
