@@ -10,6 +10,15 @@ js/jquery.min.js
 js/jquery.cookie.min.js
 res/moc_banner.php
 img/utbmoc_layout.png
+js/jquery-1.11.3.min.js
+js/jssor.slider.mini.js
+js/jssor.params.js
+css/jssor.css
+img/UTBMOC_Banner_welcome.jpg
+img/UTBMOC_Banner_slack.jpg
+img/UTBMOC_Banner_help.jpg
+img/UTBMOC_Banner_photocopy.jpg
+img/UTBMOC_Banner_passphot.jpg
 
 NETWORK:
 # All URLs that start with the following lines
