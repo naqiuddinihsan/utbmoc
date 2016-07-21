@@ -230,7 +230,7 @@
                                         <div class="moc-step">
                                         <h4>
                                             <input type="checkbox" name="moc-step" value="step" id="moc-step2">
-                                            STEP #2 - GET Insurance
+                                            <label for="moc-step2">STEP #2 - GET Insurance</label>
                                         </h4>
                                         <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s2;?></h5>
                                         <p>All new students are advised to pay for insurance according to their Faculty/School before proceeding to <u>Step 3</u></p>
@@ -251,7 +251,7 @@
                                         <div class="moc-step">
                                         <h4>
                                             <input type="checkbox" name="moc-step" value="step" id="moc-step3a">
-                                            STEP #3A - CREATE Student ID
+                                            <label for="moc-step3a">STEP #3A - CREATE Student ID</label>
                                         </h4>
                                         <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s3a;?></h5>
                                         <p>To bring:</p>
@@ -266,7 +266,7 @@
                                         <div class="moc-step">
                                         <h4>
                                             <input type="checkbox" name="moc-step" value="step" id="moc-step3b">
-                                            STEP #3B - REGISTER Course
+                                            <label for="moc-step3b">STEP #3B - REGISTER Course</label>
                                         </h4>
                                         <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s3b;?></h5>
                                         <p>To bring:</p>
@@ -285,7 +285,7 @@
                                         <div class="moc-step">
                                             <h4>
                                                 <input type="checkbox" name="moc-step" value="step" id="moc-step4">
-                                                STEP #4 - PAY Fees
+                                                <label for="moc-step4">STEP #4 - PAY Fees</label>
                                             </h4>
                                             <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s4;?></h5>
                                             <p>To bring:</p>
@@ -319,7 +319,7 @@
                                         <div class="moc-step">
                                             <h4>
                                                 <input type="checkbox" name="moc-step" value="step" id="moc-step5">
-                                                STEP #5 - COLLECT Orientation Pack
+                                                <label for="moc-step5">STEP #5 - COLLECT Orientation Pack</label>
                                             </h4>
                                             <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s5;?></h5>
                                             <p>To bring/submit:</p>
@@ -377,7 +377,7 @@
                                         <div class="moc-step">
                                         <h4>
                                             <input type="checkbox" name="moc-step" value="step" id="moc-step6">
-                                            STEP #6 - VISIT CCA Booths
+                                            <label for="moc-step6">STEP #6 - VISIT CCA Booths</label>
                                         </h4>
                                         <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s6;?></h5>
                                         <p>Head over to the Silver Jubilee Court and enjoy some astonishing performances from our clubs prepared just for you! Don't forget to sign up for your favorite clubs as well. See you there!</p>
