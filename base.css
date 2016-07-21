@@ -112,7 +112,8 @@ body {
 	z-index: 20;
 	-webkit-backface-visibility: hidden;
 	-webkit-perspective: 1000;
-/*	padding: 50px 0px !important;*/
+    padding-top: 56px;
+/*	padding: 56px 0px !important;*/
 /*	text-align: center;
 
 	font-family: Helvetica, Arial, sans-serif;

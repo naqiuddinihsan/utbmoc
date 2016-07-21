@@ -136,19 +136,6 @@
         $moc_loc_s1 = $moc_loc_s2 = $moc_loc_s3a = $moc_loc_s3b = $moc_loc_s4 = $moc_loc_s5 = $moc_loc_s6 = "(Internet connection needed)";
     ?>
     <body>
-        <div class="sandbox">
-            <div class="moc-top">
-                <div class="moc-header">                        
-                    <a href="#">
-                    <h2>                            
-                        <img src="touch-icon-iphone-retina.png" alt="MO"/> Checklist
-                    </h2>
-                    </a>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Pull to refresh -->
         <div id="ptr">
           <!-- Pull down arrow indicator -->
           <span class="genericon genericon-next"></span>
@@ -160,10 +147,20 @@
             <span id="l3"></span>
           </div>
         </div>
-                
+        
+        
         <div id="content" class="moc-sandbox">            
             <div class="moc-platform">
-                
+                <div class="moc-top">
+                    <div class="moc-header">                        
+                        <a href="#">
+                        <h2>                            
+                            <img src="touch-icon-iphone-retina.png" alt="MO"/> Checklist
+                        </h2>
+                        </a>
+                    </div>
+                    
+                </div>
                 <div class="moc-mid">
                     
                     <!--AD BANNER-->
