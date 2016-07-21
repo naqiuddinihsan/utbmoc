@@ -9,7 +9,7 @@ img/moc_location.png
 js/jquery.min.js
 js/jquery.cookie.min.js
 res/moc_banner.php
-# img/utbmoc_layout.png
+img/utbmoc_layout.png
 
 NETWORK:
 # All URLs that start with the following lines
@@ -24,4 +24,4 @@ CACHE:
 FALLBACK:
 # demoimages/currentImg.jpg images/stockImage.jpg
 # index.php backup.php
-img/utbmoc_layout.ong img/nqdi.png
+# img/utbmoc_layout.ong img/nqdi.png

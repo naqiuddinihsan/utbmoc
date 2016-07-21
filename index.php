@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html manifest="utbmoc.manifest">
-<!--<html>-->
+<!--<html manifest="utbmoc.manifest">-->
+<html>
     <head>
         <title>Checklist</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -48,7 +48,7 @@
                 <!--MOC MID-->
                 <div id="randomdiv" class="moc-mid">                    
                     <!--AD BANNER-->                    
-                    
+                    <?php include ('res/moc_banner.php');?>
                     <!--CANVAS-->
                     <div class="moc-canvas">                        
                         <div class="moc-post">
@@ -150,7 +150,7 @@
                                         </ul>
                                         <h6>PMUTB Fund ($180 / $240)</h6>
                                         <ul>
-                                            <li>👥 Applies to non-part time Students</li>
+                                            <li>👥 Applies to full-time students</li>
                                             <li>📟 Counter 1, 2 and 3</li>
                                         </ul>
                                         <h6>Fee Paying Students</h6>
