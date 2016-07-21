@@ -11,6 +11,8 @@ touch-icon-iphone-retina.png
 img/a22.png
 img/b05.png
 img/c-navigator-horizontal.png
+js/
+css/
 
 NETWORK:
 # All URLs that start with the following lines
@@ -25,6 +27,10 @@ nqdi.png
 img/moc_location.png
 img/UTBMOC_Banner_welcome.jpg
 img/UTBMOC_Banner_slack.jpg
+
+/js/lightbox-plus-jquery.min.js
+http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+http://cdn.jsdelivr.net/jquery.cookie/1.4.0/jquery.cookie.min.js
 
  
 FALLBACK:

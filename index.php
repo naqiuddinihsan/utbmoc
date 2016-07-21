@@ -26,8 +26,8 @@
     
     <!--Location data-->
     <?php
-        if (include("res/moc_data.php"))
-            include("res/moc_data.php");
+        if (include("/res/moc_data.php"))
+            include("/res/moc_data.php");
         else
         $moc_loc_s1 = $moc_loc_s2 = $moc_loc_s3a = $moc_loc_s3b = $moc_loc_s4 = $moc_loc_s5 = $moc_loc_s6 = "(Internet connection needed)";
     ?>
@@ -36,23 +36,23 @@
         <div id="content" class="moc-sandbox">            
             <div class="moc-platform">
                 <div class="moc-top">                    
-                    <?php include ('res/moc_header.php'); ?>
+                    <?php include ('/res/moc_header.php'); ?>
                 </div>
                 
                 <!--MOC MID-->
                 <div id="randomdiv" class="moc-mid">                    
                     <!--AD BANNER-->
-                    <?php include ('res/moc_banner.php'); ?>
+                    <?php include ('/res/moc_banner.php'); ?>
                     
                     <!--CANVAS-->
-                    <?php include ('res/moc_canvas.php'); ?>
+                    <?php include ('/res/moc_canvas.php'); ?>
                 </div>
                 <div class="moc-bot"></div>
             </div>
         </div>
 
         <!-- Lightbox-->
-        <script src="js/lightbox-plus-jquery.min.js"></script>
+        <script src="/js/lightbox-plus-jquery.min.js"></script>
 
         <!--AJAX Refresher-->
         <script>
