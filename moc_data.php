@@ -1,5 +1,5 @@
 <?php
-    $moc_loc_s1 = "???";
+    $moc_loc_s1 = "Respective banks";
     $moc_loc_s2 = "GF.30";
     $moc_loc_s3a = "GF.31";
     $moc_loc_s3b = "Teratak Putih";

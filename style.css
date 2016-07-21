@@ -12,6 +12,14 @@ html, body, input {
     font-weight: 300;
 }
 
+input[type=checkbox] {
+  /* All browsers except webkit*/
+  transform: scale(1.2);
+
+  /* Webkit browsers*/
+  -webkit-transform: scale(1.2);
+}
+
 a {
     text-decoration: none;
 /*    color: white;*/
@@ -145,8 +153,20 @@ button:active {
     width: 17px;
     background-size: 17px;
     background-position: center;
-    margin: 0 4px 0 17px;
+    margin: 0 4px 0 0px;
     float: left;
+}
+
+.moc-gly {
+    height: 16px;
+    width: 16px;
+    background-size: 16px;
+    background-position: center;
+    float: left;
+}
+
+.gly-shirt {
+    background: url('moc_utbgly.png');
 }
 
 .moc-post h6 {
@@ -168,11 +188,18 @@ button:active {
 
 .moc-step {
     background: #fff;
-    padding: 18px;
-    margin-bottom: 12px;
+/*    padding: 18px;*/
+/*    margin-bottom: 12px;*/
+    
+    padding: 0 0 8px 0;
+    margin: 16px 16px 12px 16px;
+    border-radius: 8px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
 }
 
-.moc-step p {
+.moc-step ol, .moc-step ul {
     margin-bottom: 8px;
 }
 
@@ -204,15 +231,6 @@ dev-copyright {
 
 
 /*Override*/
-.moc-step {
-    padding: 0;
-    margin: 16px;
-    border-radius: 8px;
-    overflow: hidden;
-    -webkit-box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
-    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
-}
-
 .moc-step h4 {
     padding: 12px 18px;
     color: white;
@@ -220,6 +238,11 @@ dev-copyright {
     
 }
 
+.moc-step h5 {
+    color: #20AFC1;
+}
+
 .moc-step h5, .moc-step h6, .moc-step p, .moc-step ul, .moc-step ol {
     padding: 8px 18px;
+    margin-bottom: 0;
 }

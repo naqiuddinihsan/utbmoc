@@ -183,8 +183,10 @@
                                 <div data-u="prototype" style="width:16px;height:16px;"></div>
                             </div>
                             <!-- Arrow Navigator -->
+<!--
                             <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
                             <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
+-->
                         </div>  
                     </div>
                     
@@ -251,7 +253,7 @@
                                         <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s3a;?></h5>
                                         <p>To bring:</p>
                                         <ul>                                            
-                                            <li><input type="checkbox" name="moc-tobring3a" value="passphot" id="moc-s3a1"> Softcopy of passport-sized Photo</li>
+                                            <li><input type="checkbox" name="moc-tobring3a" value="passphot" id="moc-s3a1"> 📷 Softcopy of passport-sized Photo</li>
                                         </ul>
                                         </div>
                                     </li>
@@ -266,11 +268,11 @@
                                         <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s3b;?></h5>
                                         <p>To bring:</p>
                                         <ul>
-                                            <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b1"> Photocopy of Offer Letter</li>
-                                            <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b2"> Two (2x) Passport-sized photo AND CD containing softcopy</li>
-                                            <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b3"> Two (2x) copies of ID Card</li>
-                                            <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b4"> Insurance receipt</li>
-                                            <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b5"> Photocopy of bank account details (for government scholarship students only)</li>
+                                            <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b1"> 📄 Photocopy of Offer Letter</li>
+                                            <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b2"> 📷💿 Two (2x) Passport-sized photo AND CD containing softcopy</li>
+                                            <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b3"> 📑 Two (2x) copies of ID Card</li>
+                                            <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b4"> 🔖 Insurance receipt</li>
+                                            <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b5"> 📑 Photocopy of bank account details (for government scholarship students only)</li>
                                         </ul>
                                         </div>
                                     </li>
@@ -285,9 +287,9 @@
                                             <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s4;?></h5>
                                             <p>To bring:</p>
                                             <ul>
-                                                <li><input type="checkbox" name="moc-tobring4" value="tobring" id="moc-s41"> IC</li>
-                                                <li><input type="checkbox" name="moc-tobring4" value="tobring" id="moc-s42"> Offer letter</li>
-                                                <li><input type="checkbox" name="moc-tobring4" value="tobring" id="moc-s43"> Money (Cash-in-hand)</li>       
+                                                <li><input type="checkbox" name="moc-tobring4" value="tobring" id="moc-s41"> 🎫 IC</li>
+                                                <li><input type="checkbox" name="moc-tobring4" value="tobring" id="moc-s42"> 📄 Offer letter</li>
+                                                <li><input type="checkbox" name="moc-tobring4" value="tobring" id="moc-s43"> 💵 Money (Cash-in-hand)</li>       
                                             </ul>
                                             <hr>
                                             <p>What &amp; where to Pay:</p>
@@ -320,7 +322,8 @@
                                             <p>To bring/submit:</p>
                                             <ul>
                                                 <li>
-                                                    <input type="checkbox" name="moc-step" value="step" id="moc-51"> *Payment receipt (from <u>Step 4</u>)
+                                                    <input type="checkbox" name="moc-step" value="step" id="moc-51"> 
+                                                    *🔖 Payment receipt (from <u>Step 4</u>)
                                                 </li>
                                             </ul>
 
@@ -328,39 +331,39 @@
                                             <ol>
                                                 <li>
                                                     <input type="checkbox" name="moc-op" value="shirt" id="moc-op1">
-                                                    Official UTB Shirt
+                                                    <div class="moc-gly ico-utbshirt"></div>Official UTB Shirt
                                                 </li>
                                                 <li>
                                                     <input type="checkbox" name="moc-op" value="shirt" id="moc-op2">
-                                                    Rumpun UTB Shirt
+                                                    <div class="moc-gly ico-utbshirt"></div>Rumpun UTB Shirt
                                                 </li>
                                                 <li>
                                                     <input type="checkbox" name="moc-op" value="shirt" id="moc-op3">
-                                                    UTB Badge
+                                                    <div class="moc-gly ico-utbshirt"></div>UTB Badge
                                                 </li>
                                                 <li>
                                                     <input type="checkbox" name="moc-op" value="shirt" id="moc-op4">
-                                                    UTB String bag
+                                                    <div class="moc-gly ico-utbshirt"></div>UTB String bag
                                                 </li>
                                                 <li>
                                                     <input type="checkbox" name="moc-op" value="shirt" id="moc-op5">
-                                                    Umbrella
+                                                    <div class="moc-gly ico-utbshirt"></div>Umbrella
                                                 </li>
                                                 <li>
                                                     <input type="checkbox" name="moc-op" value="shirt" id="moc-op6">
-                                                    Pen
+                                                    <div class="moc-gly ico-utbshirt"></div>Pen
                                                 </li>
                                                 <li>
                                                     <input type="checkbox" name="moc-op" value="shirt" id="moc-op7">
-                                                    UTB Lanyard
+                                                    <div class="moc-gly ico-utbshirt"></div>UTB Lanyard
                                                 </li>
                                                 <li>
                                                     <input type="checkbox" name="moc-op" value="shirt" id="moc-op8">
-                                                    UTB Notebook
+                                                    <div class="moc-gly ico-utbshirt"></div>UTB Notebook
                                                 </li>
                                                 <li>
                                                     <input type="checkbox" name="moc-op" value="shirt" id="moc-op9"> 
-                                                    Car shade
+                                                    <div class="moc-gly ico-utbshirt"></div>Car shade
                                                 </li>
                                             </ol>                                        
                                         </div>
