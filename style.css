@@ -12,12 +12,13 @@ html, body, input {
     font-weight: 300;
 }
 
-input[type=checkbox] {
+input[type="checkbox"]:checked + label {
   /* All browsers except webkit*/
   transform: scale(1.2);
 
   /* Webkit browsers*/
   -webkit-transform: scale(1.2);
+    
 }
 
 a {
@@ -208,9 +209,11 @@ button:active {
     border: 1px solid #D5AD00;
     padding: 12px;
     margin-bottom: 12px;
-    border-radius: 4px;
-    margin-left: 12px;
-    margin-right: 12px;
+    border-radius: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    -webkit-box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
 }
 
 .ico-loc {

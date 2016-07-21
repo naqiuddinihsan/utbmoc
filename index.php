@@ -213,7 +213,7 @@
                                         <div class="moc-step">
                                         <h4>
                                             <input type="checkbox" name="moc-step" value="step" id="moc-step1">
-                                            STEP #1 - OPEN Bank Account
+                                            <label for="moc-step1">STEP #1 - OPEN Bank Account</label>
                                         </h4>
                                         <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s1;?></h5>
                                         <p>For allowance purposes (applicable to Government Scholarship students only), if you do not have a Bank Account, please go to a bank and open up a new account</p>
