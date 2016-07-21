@@ -5,16 +5,13 @@ style.css
 touch-icon-iphone-retina.png
 favicon.ico
 img/nqdi.png
-http://utbmoc.herokuapp.com/css/jssor.css
-http://utbmoc.herokuapp.com/css/lightbox.min.css
-http://utbmoc.herokuapp.com/img/moc_location.png
-http://utbmoc.herokuapp.com/img/nqdi.png
-http://utbmoc.herokuapp.com/js/jquery-1.11.3.min.js
-http://utbmoc.herokuapp.com/js/jssor.params.js
-http://utbmoc.herokuapp.com/js/jssor.slider.mini.js
-http://utbmoc.herokuapp.com/js/lightbox-plus-jquery.min.js
-http://utbmoc.herokuapp.com/style.css
-http://utbmoc.herokuapp.com/touch-icon-iphone-retina.png
+css/jssor.css
+css/lightbox.min.css
+img/moc_location.png
+js/jquery-1.11.3.min.js
+js/jssor.params.js
+js/jssor.slider.mini.js
+js/lightbox-plus-jquery.min.js
 https://fonts.googleapis.com/css?family=Maven+Pro:400,900
 https://fonts.googleapis.com/css?family=Roboto:400,900
 
@@ -27,7 +24,6 @@ https://ajax.googleapis.com/
 https://fonts.googleapis.com/
  
 CACHE:
-
 
 FALLBACK:
 # demoimages/currentImg.jpg images/stockImage.jpg
