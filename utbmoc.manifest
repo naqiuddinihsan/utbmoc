@@ -8,6 +8,7 @@ img/nqdi.png
 img/moc_location.png
 js/jquery.min.js
 js/jquery.cookie.min.js
+res/moc_banner.php
 
 NETWORK:
 # All URLs that start with the following lines
@@ -18,6 +19,11 @@ https://ajax.googleapis.com/
 https://fonts.googleapis.com/
  
 CACHE:
+img/UTBMOC_Banner_help.jpg
+img/UTBMOC_Banner_passphot.jpg
+img/UTBMOC_Banner_photocopy.jpg
+img/UTBMOC_Banner_slack.jpg
+img/UTBMOC_Banner_welcome.jpg
 
 FALLBACK:
 # demoimages/currentImg.jpg images/stockImage.jpg
