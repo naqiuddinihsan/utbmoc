@@ -22,19 +22,6 @@
         <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
         <script type="text/javascript" src="js/jssor.params.js"></script>
         <link rel="stylesheet" href="css/jssor.css">        
-        <style>
-            #jssor_1 {
-                position: relative;
-                margin: 0 auto;
-                top: 0px;
-                left: 0px; 
-/*                width: 1300px;*/
-                width: 100%;
-                height: 620px; 
-                overflow: hidden;
-                visibility: hidden;
-            }
-        </style>
     </head> 
     
     <!--Location data-->
@@ -60,35 +47,7 @@
                 
                 <!--MOC MID-->
                 <div id="randomdiv" class="moc-mid">                    
-                    <!--AD BANNER-->
-                    <div class="moc-banner">                        
-                        <div id="jssor_1">                            
-                            
-                            <!--SLIDES-->
-                            <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 620px; overflow: hidden;">
-                                <div data-p="225.00" style="display: none;">                                    
-                                        <img data-u="image" src="img/UTBMOC_Banner_welcome.jpg" />
-                                </div>
-                                <div data-p="225.00" style="display: none;">
-                                    <a href="http://pmutb.slack.com" target="_blank">
-                                        <img data-u="image" src="img/UTBMOC_Banner_slack.jpg" />
-                                    </a>
-                                </div>
-                                <div data-p="225.00" style="display: none;">                                    
-                                        <img data-u="image" src="img/UTBMOC_Banner_help.jpg" />
-                                </div>    
-                                <div data-p="225.00" style="display: none;">
-                                    <a href="img/UTBMOC_Banner_photocopy.jpg" data-lightbox="map">
-                                        <img data-u="image" src="img/UTBMOC_Banner_photocopy.jpg" />
-                                    </a>
-                                </div>
-                                <div data-p="225.00" style="display: none;">                                    
-                                        <img data-u="image" src="img/UTBMOC_Banner_passphot.jpg" />
-                                </div>                                
-                            </div>
-                        </div>  
-                    </div>
-                    
+                    <!--AD BANNER-->                    
                     
                     <!--CANVAS-->
                     <div class="moc-canvas">                        
