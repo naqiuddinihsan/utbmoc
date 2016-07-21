@@ -244,3 +244,7 @@ button:active {
     color: #20AFC1;
     padding: 8px 18px 4px 18px;
 }
+
+.moc-step h5 a {
+    color: #20AFC1;
+}

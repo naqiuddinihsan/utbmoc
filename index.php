@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--<html manifest="utbmoc.manifest">-->
-<html>
+<html manifest="utbmoc.manifest">
+<!--<html>-->
     <head>
         <title>Checklist</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -77,18 +77,22 @@
                                     <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s2;?></h5>
                                     <p>All new students are advised to pay for insurance according to their Faculty/School before proceeding to <u>Step 3</u></p>
                                         <hr>
-                                    <h6># Faculty of Engineering &raquo; Takaful Brunei Keluarga</h6>
-                                    <h6># School of Business &amp; School of Computing and Informatics &raquo; Insurans Islam TAIB</h6>
+                                    <h6>⚙️ Faculty of Engineering &raquo; Takaful Brunei Keluarga</h6>
+                                    <h6>👔 School of Business &raquo; Insurans Islam TAIB</h6>
+                                    <h6>🖥 School of Computing and Informatics &raquo; Insurans Islam TAIB</h6>
                                     </div>   
                                 </li>
 
-                                    <li>
-                                    <div class="moc-hint"
-                                        <p><em>You may either complete STEP 3A or 3B in any order. However, you still have to complete both steps before proceeding to <u>Step 4</u></em></p>
-                                    </div>
-                                    </li>
+<!--
+                                <li>
+                                <div class="moc-hint"
+                                    <p><em>You may either complete STEP 3A or 3B in any order. However, you still have to complete both steps before proceeding to <u>Step 4</u></em></p>
+                                </div>
+                                </li>
+-->
 
                                 <!--STEP 3a-->
+<!--
                                 <li>
                                     <div class="moc-step">
                                     <h4>
@@ -102,13 +106,14 @@
                                     </ul>
                                     </div>
                                 </li>
+-->
 
                                 <!--STEP 3b-->    
                                 <li>
                                     <div class="moc-step">
                                     <h4>
                                         <input type="checkbox" name="moc-step" value="step" id="moc-step3b">
-                                        <label for="moc-step3b">STEP #3B - REGISTER Course</label>
+                                        <label for="moc-step3b">STEP #3 - REGISTER Course</label>
                                     </h4>
                                     <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s3b;?></h5>
                                     <p>To bring:</p>
@@ -140,17 +145,17 @@
                                         <p>What &amp; where to Pay:</p>
                                         <h6>ORIENTATION PACK ($80)</h6>
                                         <ul>
-                                            <li># Applies to ALL Students (including fee paying students)</li>
-                                            <li># Counter 1, 2 and 3</li>
+                                            <li>👥 Applies to ALL Students (including fee paying students)</li>
+                                            <li>📟 Counter 1, 2 and 3</li>
                                         </ul>
                                         <h6>PMUTB Fund ($180 / $240)</h6>
                                         <ul>
-                                            <li># Applies to non-part time Students</li>
-                                            <li># Counter 1, 2 and 3</li>
+                                            <li>👥 Applies to non-part time Students</li>
+                                            <li>📟 Counter 1, 2 and 3</li>
                                         </ul>
                                         <h6>Fee Paying Students</h6>
                                         <ul>
-                                            <li># Counter 4</li>
+                                            <li>📟 Counter 4</li>
                                         </ul>
                                     </div>
                                 </li>
@@ -176,39 +181,39 @@
                                         <ol>
                                             <li>
                                                 <input type="checkbox" name="moc-op" value="shirt" id="moc-op1">
-                                                <div class="moc-gly ico-utbshirt"></div>Official UTB Shirt
+                                                <div class="moc-gly ico-utbshirt"></div>👕 Official UTB Shirt
                                             </li>
                                             <li>
                                                 <input type="checkbox" name="moc-op" value="shirt" id="moc-op2">
-                                                <div class="moc-gly ico-utbshirt"></div>Rumpun UTB Shirt
+                                                <div class="moc-gly ico-utbshirt"></div>👕 Rumpun UTB Shirt
                                             </li>
                                             <li>
                                                 <input type="checkbox" name="moc-op" value="shirt" id="moc-op3">
-                                                <div class="moc-gly ico-utbshirt"></div>UTB Badge
+                                                <div class="moc-gly ico-utbshirt"></div>🇧🇳 UTB Badge
                                             </li>
                                             <li>
                                                 <input type="checkbox" name="moc-op" value="shirt" id="moc-op4">
-                                                <div class="moc-gly ico-utbshirt"></div>UTB String bag
+                                                <div class="moc-gly ico-utbshirt"></div>🎒 UTB String bag
                                             </li>
                                             <li>
                                                 <input type="checkbox" name="moc-op" value="shirt" id="moc-op5">
-                                                <div class="moc-gly ico-utbshirt"></div>Umbrella
+                                                <div class="moc-gly ico-utbshirt"></div>🌂 Umbrella
                                             </li>
                                             <li>
                                                 <input type="checkbox" name="moc-op" value="shirt" id="moc-op6">
-                                                <div class="moc-gly ico-utbshirt"></div>Pen
+                                                <div class="moc-gly ico-utbshirt"></div>🖊 Pen
                                             </li>
                                             <li>
                                                 <input type="checkbox" name="moc-op" value="shirt" id="moc-op7">
-                                                <div class="moc-gly ico-utbshirt"></div>UTB Lanyard
+                                                <div class="moc-gly ico-utbshirt"></div>⭐️ UTB Lanyard
                                             </li>
                                             <li>
                                                 <input type="checkbox" name="moc-op" value="shirt" id="moc-op8">
-                                                <div class="moc-gly ico-utbshirt"></div>UTB Notebook
+                                                <div class="moc-gly ico-utbshirt"></div>📒 UTB Notebook
                                             </li>
                                             <li>
                                                 <input type="checkbox" name="moc-op" value="shirt" id="moc-op9"> 
-                                                <div class="moc-gly ico-utbshirt"></div>Car shade
+                                                <div class="moc-gly ico-utbshirt"></div>🚗 Car shade
                                             </li>
                                         </ol>                                        
                                     </div>
