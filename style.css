@@ -159,8 +159,10 @@ button:active {
 }
 
 .moc-gly {
+/*
     height: 16px;
     width: 16px;
+*/
     background-size: 16px;
     background-position: center;
     float: left;
@@ -175,7 +177,7 @@ button:active {
     font-size: 13px;
 }
 
-.moc-post ul, .moc-post ol {
+.moc-post ul, .moc-post ol, {
     -webkit-padding-start: 0px;
 }
 
@@ -232,7 +234,6 @@ dev-copyright {
     transition: all ease-in-out 0.2s;
 }
 
-
 /*Override*/
 .moc-step h4 {
     padding: 12px 18px;
@@ -241,11 +242,12 @@ dev-copyright {
     
 }
 
-.moc-step h5 {
-    color: #20AFC1;
-}
-
 .moc-step h5, .moc-step h6, .moc-step p, .moc-step ul, .moc-step ol {
     padding: 8px 18px;
     margin-bottom: 0;
+}
+
+.moc-step h5 {
+    color: #20AFC1;
+    padding: 8px 18px 4px 18px;
 }
