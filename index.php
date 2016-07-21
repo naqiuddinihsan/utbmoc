@@ -15,13 +15,13 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="white">
         
         <!--Litebox-->
-        <link rel="stylesheet" href="/css/lightbox.min.css">
+        <link rel="stylesheet" href="css/lightbox.min.css">
         
         <!--Slider-->
         <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
         <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
         <script type="text/javascript" src="js/jssor.params.js"></script>
-        <link rel="stylesheet" href="/css/jssor.css">        
+        <link rel="stylesheet" href="css/jssor.css">        
     </head> 
     
     <!--Location data-->
@@ -279,7 +279,7 @@
         </div>
 
         <!-- Lightbox-->
-        <script src="/js/lightbox-plus-jquery.min.js"></script>
+        <script src="js/lightbox-plus-jquery.min.js"></script>
 
         <!--Cookie-->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

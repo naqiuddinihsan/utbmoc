@@ -1,6 +1,6 @@
 html, body {
     margin: 0 !important;
-    background: #F2F4F4;
+    background: #fff;
 }
 
 html, body, input {
@@ -113,6 +113,7 @@ button:active {
 
 .moc-canvas {
 /*    padding-top: 24px;*/
+    background: #F2F4F4;
 }
 
 .moc-post {
