@@ -3,7 +3,8 @@ CACHE MANIFEST
 index.php
 style.css
 touch-icon-iphone-retina.png
-favicon.icon
+favicon.ico
+img/loading.gif
 
 NETWORK:
 # All URLs that start with the following lines
