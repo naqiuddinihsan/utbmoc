@@ -9,6 +9,9 @@ img/moc_location.png
 js/jquery.min.js
 js/jquery.cookie.min.js
 res/moc_banner.php
+js/jquery-1.11.3.min.js
+js/jssor.slider.mini.js
+js/jssor.params.js
 
 NETWORK:
 # All URLs that start with the following lines
