@@ -48,7 +48,7 @@
                 <!--MOC MID-->
                 <div id="randomdiv" class="moc-mid">                    
                     <!--AD BANNER-->
-                    <div class="banner">
+                    <div class="moc-banner">
                         <a href="img/utbmoc_layout.png">
                             <img src="img/utbmoc_layout.png" alt="layout"/>
                         </a>
@@ -243,10 +243,6 @@
         <script src="js/lightbox-plus-jquery.min.js"></script>
 
         <!--Cookie-->
-<!--
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script src="http://cdn.jsdelivr.net/jquery.cookie/1.4.0/jquery.cookie.min.js"></script>
--->
         <script src="js/jquery.min.js"></script>
         <script src="js/jquery.cookie.min.js"></script>
 

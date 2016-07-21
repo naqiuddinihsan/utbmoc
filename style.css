@@ -111,6 +111,10 @@ button:active {
     text-align: center;
 }
 
+.moc-banner img {
+    max-width: 100%;
+}
+
 .moc-canvas {
     padding-top: 4px;
     
@@ -240,4 +244,3 @@ button:active {
     color: #20AFC1;
     padding: 8px 18px 4px 18px;
 }
-
