@@ -1,6 +1,6 @@
 CACHE MANIFEST
 # v1.0
-index.php
+# index.php
 style.css
 touch-icon-iphone-retina.png
 favicon.ico
@@ -22,3 +22,4 @@ CACHE:
 
 FALLBACK:
 # demoimages/currentImg.jpg images/stockImage.jpg
+index.php backup.php
