@@ -16,6 +16,6 @@
     
     
     <body>        
-       <p>Hellow world!</p>
+       <p>Hello world!</p>
     </body>
 </html>

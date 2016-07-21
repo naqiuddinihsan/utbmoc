@@ -5,20 +5,55 @@ style.css
 touch-icon-iphone-retina.png
 favicon.icon
 
+# CSS Cache
+css/jssor.css
+css/lightbox.css
+css/lightbox.min.css
+
+# IMG cache
+img/a22.png
+img/b05.png
+img/c-navigator-horizontal.png
+img/moc_location.png
+img/nqdi.png
+img/UTBMOC_Banner_construction.jpg
+img/UTBMOC_Banner_help copy.jpg
+img/UTBMOC_Banner_help.jpg
+img/UTBMOC_Banner_passphot.jpg
+img/UTBMOC_Banner_photocopy.jpg
+img/UTBMOC_Banner_slack.jpg
+img/UTBMOC_Banner_welcome copy.jpg
+img/UTBMOC_Banner_welcome.jpg
+
+# JS Cache
+js/jquery-1.11.3.min.js
+js/jssor.params.js
+js/jssor.slider.debug.js
+js/jssor.slider.min.js
+js/jssor.slider.mini.js
+js/lightbox-plus-jquery.js
+js/lightbox-plus-jquery.min.js
+
+# RES Cache
+res/moc_banner.php
+res/moc_canvas.php
+res/moc_data.php
+res/moc_header.php
+res/moc_mid.php
+
 NETWORK:
 # All URLs that start with the following lines
 # are whitelisted.
-http://utbmoc.herokuapp.com/
-https://utbmoc.herokuapp.com
+# http://utbmoc.herokuapp.com/
 http://cdn.jsdelivr.net/
 http://ajax.googleapis.com/
 https://fonts.googleapis.com/
  
 CACHE:
-# https://fonts.googleapis.com/css?family=Maven+Pro:400,900
-# https://fonts.googleapis.com/css?family=Roboto:400,900
-# http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
-# http://cdn.jsdelivr.net/jquery.cookie/1.4.0/jquery.cookie.min.js
+https://fonts.googleapis.com/css?family=Maven+Pro:400,900
+https://fonts.googleapis.com/css?family=Roboto:400,900
+http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+http://cdn.jsdelivr.net/jquery.cookie/1.4.0/jquery.cookie.min.js
 
  
 FALLBACK:
