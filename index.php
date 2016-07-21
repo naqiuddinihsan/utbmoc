@@ -135,7 +135,8 @@
             <div class="moc-platform">
                 <div class="moc-top">
                     <div class="moc-header">                        
-                        <a id="refresh" href="#">
+<!--                        <a id="refresh" href="#">-->
+                            <a href="#">
                             <h2>                            
                                 <img src="touch-icon-iphone-retina.png" alt="MO"/> Checklist
                             </h2>
