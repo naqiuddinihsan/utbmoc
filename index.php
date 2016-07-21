@@ -123,11 +123,6 @@
             .jssora22l.jssora22ldn { background-position: -250px -31px; }
             .jssora22r.jssora22rdn { background-position: -310px -31px; }
         </style>    
-        
-        <!--PTR-->
-        <link rel="stylesheet" href="lib/genericons/genericons.css">
-        <link rel="stylesheet" href="base.css">
-        
     </head>
     <?php
         if (include("moc_data.php"))
@@ -135,20 +130,7 @@
         else
         $moc_loc_s1 = $moc_loc_s2 = $moc_loc_s3a = $moc_loc_s3b = $moc_loc_s4 = $moc_loc_s5 = $moc_loc_s6 = "(Internet connection needed)";
     ?>
-    <body>
-        <div id="ptr">
-          <!-- Pull down arrow indicator -->
-          <span class="genericon genericon-next"></span>
-
-          <!-- CSS-based loading indicator -->
-          <div class="loading">
-            <span id="l1"></span>
-            <span id="l2"></span>
-            <span id="l3"></span>
-          </div>
-        </div>
-        
-        
+    <body>        
         <div id="content" class="moc-sandbox">            
             <div class="moc-platform">
                 <div class="moc-top">
@@ -410,32 +392,6 @@
 
         <!-- Lightbox-->
         <script src="js/lightbox-plus-jquery.min.js"></script>
-
-        <!--PTR-->
-        <script src="lib/hammer.2.0.4.js"></script>
-        <script src="lib/wptr.1.1.js"></script>
-
-        <script>
-            window.onload = function() {
-                WebPullToRefresh.init( {
-                    loadingFunction: exampleLoadingFunction
-                } );
-            };
-
-            // Just an example loading function that returns a
-            // promise that WebPullToRefresh can use.
-            var exampleLoadingFunction = function() {
-                return new Promise( function( resolve, reject ) {
-                    // Run some async loading code here
-
-                    if ( true /* if the loading worked */ ) {
-                        resolve();
-                    } else {
-                        reject();
-                    }
-                } );
-            };
-        </script>
 
         <!--Cookie-->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
