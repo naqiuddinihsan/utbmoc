@@ -381,11 +381,7 @@
                                         </div>
                                     </li>
                                 </ul>
-                        <center>
-                            <a href="http://behance.net/naqiuddinihsan" target="_blank">
-                                <img src="nqdi.png" alt="Naqiuddin Ihsan Amj" />
-                            </a>
-                        </center>
+                                <div class="moc-copyright-ihsan"></div>
                         </div>                    
                     </div>
                 </div>

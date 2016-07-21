@@ -251,3 +251,12 @@ dev-copyright {
     color: #20AFC1;
     padding: 8px 18px 4px 18px;
 }
+
+.moc-copyright-ihsan {
+    height: 64px;
+    width: 64px;
+    background: url(nqdi.png);
+    margin: 0 auto 64px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
