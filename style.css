@@ -240,7 +240,7 @@ dev-copyright {
     padding: 12px 18px;
     color: white;
     background: #6E398B;
-    
+    margin-bottom: 8px;
 }
 
 .moc-step h5, .moc-step h6, .moc-step p, .moc-step ul, .moc-step ol {
@@ -257,7 +257,7 @@ dev-copyright {
     height: 64px;
     width: 64px;
     background: url(nqdi.png);
-    margin: 0 auto 64px auto;
+    margin: 0 auto 48px auto;
     background-position: center;
     background-repeat: no-repeat;
 }
