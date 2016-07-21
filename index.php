@@ -2,7 +2,7 @@
 <!--<html manifest="utbmoc.manifest">-->
 <html>
     <head>
-        <title>MO Checklist</title>
+        <title>Checklist</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <link rel="stylesheet" href="style.css" />        
         <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,900" rel="stylesheet">
@@ -135,15 +135,15 @@
             <div class="moc-platform">
                 <div class="moc-top">
                     <div class="moc-header">                        
-                        <a href="#">
-                        <h2>                            
-                            <img src="touch-icon-iphone-retina.png" alt="MO"/> Checklist
-                        </h2>
+                        <a id="refresh" href="#">
+                            <h2>                            
+                                <img src="touch-icon-iphone-retina.png" alt="MO"/> Checklist
+                            </h2>
                         </a>
                     </div>
                     
                 </div>
-                <div class="moc-mid">
+                <div id="randomdiv" class="moc-mid">
                     
                     <!--AD BANNER-->
                     <div class="moc-banner">                        
@@ -178,10 +178,11 @@
                                 
                             </div>
                             <!-- Bullet Navigator -->
+<!--
                             <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
-                                <!-- bullet navigator item prototype -->
                                 <div data-u="prototype" style="width:16px;height:16px;"></div>
                             </div>
+-->
                             <!-- Arrow Navigator -->
 <!--
                             <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
@@ -191,7 +192,7 @@
                     </div>
                     
                     <!--CANVAS-->
-                    <div class="moc-canvas">
+                    <div class="moc-canvas">                        
                         <div class="moc-post">
                             <h3>&raquo; Day 1: Registration &laquo;</h3>
                                 <ul>                                    
@@ -207,6 +208,8 @@
 -->
                                     </li>
                                         
+                                    
+                                    
                                     
                                     <!--STEP 1-->
                                     <li>
@@ -392,6 +395,17 @@
 
         <!-- Lightbox-->
         <script src="js/lightbox-plus-jquery.min.js"></script>
+
+        <!--Refresher-->
+        <script>
+            $(function() {
+              $("#refresh").click(function(evt) {
+                 $("#randomdiv").load("index.php")
+                 evt.preventDefault();
+              })
+            })
+        </script>
+
 
         <!--Cookie-->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
