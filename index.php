@@ -9,7 +9,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
         
         <!--Cosmetic-->
-        <link rel="icon" href="http://utbmoc.herokuapp.com/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="apple-touch-icon" href="touch-icon-iphone-retina.png">
         <meta name="apple-mobile-web-app-status-bar-style" content="white">
@@ -50,7 +50,6 @@
                 <div class="moc-bot"></div>
             </div>
         </div>
-
 
         <!-- Lightbox-->
         <script src="js/lightbox-plus-jquery.min.js"></script>
