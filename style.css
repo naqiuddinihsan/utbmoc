@@ -1,9 +1,5 @@
 html, body {
     margin: 0 !important;
-/*
-    background: #E8EAF6;
-    color: #757575;
-*/
     background: #F2F4F4;
 }
 
@@ -17,13 +13,11 @@ input[type="checkbox"]:checked + label {
   transform: scale(1.2);
 
   /* Webkit browsers*/
-  -webkit-transform: scale(1.2);
-    
+  -webkit-transform: scale(1.2);    
 }
 
 a {
     text-decoration: none;
-/*    color: white;*/
 }
 
 h3, p {
@@ -88,7 +82,6 @@ button:active {
 }
      
 .moc-header {
-/*    background: #6B3E85;*/
     background-color: #fff;
     height: 56px;
     color: #fff;
@@ -119,7 +112,7 @@ button:active {
 }
 
 .moc-canvas {
-    padding-top: 24px;
+/*    padding-top: 24px;*/
 }
 
 .moc-post {
@@ -191,10 +184,7 @@ button:active {
 }
 
 .moc-step {
-    background: #fff;
-/*    padding: 18px;*/
-/*    margin-bottom: 12px;*/
-    
+    background: #fff;    
     padding: 0 0 8px 0;
     margin: 16px 16px 12px 16px;
     border-radius: 8px;
@@ -223,6 +213,15 @@ button:active {
     background: url('img/moc_location.png');
 }
 
+.moc-copyright-ihsan {
+    height: 64px;
+    width: 64px;
+    background: url('img/nqdi.png');
+    margin: 0 auto 48px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /*Override*/
 .moc-step h4 {
     padding: 12px 18px;
@@ -241,11 +240,3 @@ button:active {
     padding: 8px 18px 4px 18px;
 }
 
-.moc-copyright-ihsan {
-    height: 64px;
-    width: 64px;
-    background: url('img/nqdi.png');
-    margin: 0 auto 48px auto;
-    background-position: center;
-    background-repeat: no-repeat;
-} 
