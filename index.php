@@ -47,12 +47,7 @@
                 
                 <!--MOC MID-->
                 <div id="randomdiv" class="moc-mid">                    
-                    <!--AD BANNER-->
-                    <div class="moc-banner">
-                        <a href="img/utbmoc_layout.png">
-                            <img src="img/utbmoc_layout.png" alt="layout"/>
-                        </a>
-                    </div>
+                    <!--AD BANNER-->                    
                     
                     <!--CANVAS-->
                     <div class="moc-canvas">                        
