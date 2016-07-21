@@ -191,7 +191,7 @@
                     <!--CANVAS-->
                     <div class="moc-canvas">
                         <div class="moc-post">
-                            <h3>&raquo; Day 1: "Registration" &laquo;</h3>
+                            <h3>&raquo; Day 1: Registration &laquo;</h3>
                                 <ul>                                    
                                     <li>
 <!--
@@ -278,17 +278,33 @@
                                     <!--STEP 4-->
                                     <li>
                                         <div class="moc-step">
-                                        <h4>
-                                            <input type="checkbox" name="moc-step" value="step" id="moc-step4">
-                                            STEP #4 - PAY Fees
-                                        </h4>
-                                        <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s4;?></h5>
-                                        <p>To bring:</p>
-                                        <ul>
-                                            <li><input type="checkbox" name="moc-tobring4" value="tobring" id="moc-s41"> IC</li>
-                                            <li><input type="checkbox" name="moc-tobring4" value="tobring" id="moc-s42"> Offer letter</li>
-                                            <li><input type="checkbox" name="moc-tobring4" value="tobring" id="moc-s43"> Money (Cash-in-hand)</li>       
-                                        </ul>
+                                            <h4>
+                                                <input type="checkbox" name="moc-step" value="step" id="moc-step4">
+                                                STEP #4 - PAY Fees
+                                            </h4>
+                                            <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s4;?></h5>
+                                            <p>To bring:</p>
+                                            <ul>
+                                                <li><input type="checkbox" name="moc-tobring4" value="tobring" id="moc-s41"> IC</li>
+                                                <li><input type="checkbox" name="moc-tobring4" value="tobring" id="moc-s42"> Offer letter</li>
+                                                <li><input type="checkbox" name="moc-tobring4" value="tobring" id="moc-s43"> Money (Cash-in-hand)</li>       
+                                            </ul>
+                                            <hr>
+                                            <p>What &amp; where to Pay:</p>
+                                            <h6>ORIENTATION PACK ($80)</h6>
+                                            <ul>
+                                                <li># Applies to ALL Students (including fee paying students)</li>
+                                                <li># Counter 1, 2 and 3</li>
+                                            </ul>
+                                            <h6>PMUTB Fund ($180 / $240)</h6>
+                                            <ul>
+                                                <li># Applies to non-part time Students</li>
+                                                <li># Counter 1, 2 and 3</li>
+                                            </ul>
+                                            <h6>Fee Paying Students</h6>
+                                            <ul>
+                                                <li># Counter 4</li>
+                                            </ul>
                                         </div>
                                     </li>
                                     
@@ -296,58 +312,57 @@
                                     <!--STEP 5-->
                                     <li>
                                         <div class="moc-step">
-                                        <h4>
-                                            <input type="checkbox" name="moc-step" value="step" id="moc-step5">
-                                            STEP #5 - COLLECT Orientation Pack
-                                        </h4>
-                                        <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s5;?></h5>
-                                        <p>To bring/submit:</p>
-                                        <ul>
-                                            <li>
-                                                <input type="checkbox" name="moc-step" value="step" id="moc-51"> *Payment receipt (from <u>Step 4</u>)
-                                            </li>
-                                        </ul>
-                                        
-                                        <p>Inside the orientation pack, you should have:</p>
-                                        <ol>
-                                            <li>
-                                                <input type="checkbox" name="moc-op" value="shirt" id="moc-op1">
-                                                Official UTB Shirt
-                                            </li>
-                                            <li>
-                                                <input type="checkbox" name="moc-op" value="shirt" id="moc-op2">
-                                                Rumpun UTB Shirt
-                                            </li>
-                                            <li>
-                                                <input type="checkbox" name="moc-op" value="shirt" id="moc-op3">
-                                                UTB Badge
-                                            </li>
-                                            <li>
-                                                <input type="checkbox" name="moc-op" value="shirt" id="moc-op4">
-                                                UTB String bag
-                                            </li>
-                                            <li>
-                                                <input type="checkbox" name="moc-op" value="shirt" id="moc-op5">
-                                                Umbrella
-                                            </li>
-                                            <li>
-                                                <input type="checkbox" name="moc-op" value="shirt" id="moc-op6">
-                                                Pen
-                                            </li>
-                                            <li>
-                                                <input type="checkbox" name="moc-op" value="shirt" id="moc-op7">
-                                                UTB Lanyard
-                                            </li>
-                                            <li>
-                                                <input type="checkbox" name="moc-op" value="shirt" id="moc-op8">
-                                                UTB Notebook
-                                            </li>
-                                            <li>
-                                                <input type="checkbox" name="moc-op" value="shirt" id="moc-op9"> 
-                                                Car shade
-                                            </li>
-                                        </ol>
-                                        
+                                            <h4>
+                                                <input type="checkbox" name="moc-step" value="step" id="moc-step5">
+                                                STEP #5 - COLLECT Orientation Pack
+                                            </h4>
+                                            <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s5;?></h5>
+                                            <p>To bring/submit:</p>
+                                            <ul>
+                                                <li>
+                                                    <input type="checkbox" name="moc-step" value="step" id="moc-51"> *Payment receipt (from <u>Step 4</u>)
+                                                </li>
+                                            </ul>
+
+                                            <p>Inside the orientation pack, you should have:</p>
+                                            <ol>
+                                                <li>
+                                                    <input type="checkbox" name="moc-op" value="shirt" id="moc-op1">
+                                                    Official UTB Shirt
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" name="moc-op" value="shirt" id="moc-op2">
+                                                    Rumpun UTB Shirt
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" name="moc-op" value="shirt" id="moc-op3">
+                                                    UTB Badge
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" name="moc-op" value="shirt" id="moc-op4">
+                                                    UTB String bag
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" name="moc-op" value="shirt" id="moc-op5">
+                                                    Umbrella
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" name="moc-op" value="shirt" id="moc-op6">
+                                                    Pen
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" name="moc-op" value="shirt" id="moc-op7">
+                                                    UTB Lanyard
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" name="moc-op" value="shirt" id="moc-op8">
+                                                    UTB Notebook
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" name="moc-op" value="shirt" id="moc-op9"> 
+                                                    Car shade
+                                                </li>
+                                            </ol>                                        
                                         </div>
                                     </li>
                     
