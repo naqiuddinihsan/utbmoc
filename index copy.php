@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html manifest="utbmoc.manifest">
+<!--<html manifest="utbmoc.manifest">-->
 <!--<html>-->
     <head>
         <title>Checklist</title>
@@ -26,10 +26,10 @@
     
     <!--Location data-->
     <?php
-//        if (include("res/moc_data.php"))
-//            include("res/moc_data.php");
-//        else
-//        $moc_loc_s1 = $moc_loc_s2 = $moc_loc_s3a = $moc_loc_s3b = $moc_loc_s4 = $moc_loc_s5 = $moc_loc_s6 = "(Internet connection needed)";
+        if (include("res/moc_data.php"))
+            include("res/moc_data.php");
+        else
+        $moc_loc_s1 = $moc_loc_s2 = $moc_loc_s3a = $moc_loc_s3b = $moc_loc_s4 = $moc_loc_s5 = $moc_loc_s6 = "(Internet connection needed)";
         // Open Bank
         $moc_loc_s1 = "Respective banks";
 
