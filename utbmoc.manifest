@@ -5,16 +5,6 @@ style.css
 touch-icon-iphone-retina.png
 favicon.ico
 img/nqdi.png
-
-NETWORK:
-# All URLs that start with the following lines
-# are whitelisted.
-# http://utbmoc.herokuapp.com/
-https://cdn.jsdelivr.net/
-https://ajax.googleapis.com/
-https://fonts.googleapis.com/
- 
-CACHE:
 http://utbmoc.herokuapp.com/css/jssor.css
 http://utbmoc.herokuapp.com/css/lightbox.min.css
 http://utbmoc.herokuapp.com/img/moc_location.png
@@ -27,6 +17,17 @@ http://utbmoc.herokuapp.com/style.css
 http://utbmoc.herokuapp.com/touch-icon-iphone-retina.png
 https://fonts.googleapis.com/css?family=Maven+Pro:400,900
 https://fonts.googleapis.com/css?family=Roboto:400,900
+
+NETWORK:
+# All URLs that start with the following lines
+# are whitelisted.
+# http://utbmoc.herokuapp.com/
+https://cdn.jsdelivr.net/
+https://ajax.googleapis.com/
+https://fonts.googleapis.com/
+ 
+CACHE:
+
 
 FALLBACK:
 # demoimages/currentImg.jpg images/stockImage.jpg
