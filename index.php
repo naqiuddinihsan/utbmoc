@@ -215,9 +215,9 @@
                                             <input type="checkbox" name="moc-step" value="step" id="moc-step1">
                                             <label for="moc-step1">STEP #1 - OPEN Bank Account</label>
                                         </h4>
-                                        <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s1;?></h5>
-                                        <p>For allowance purposes (applicable to Government Scholarship students only), if you do not have a Bank Account, please go to a bank and open up a new account</p>
-                                        <p>If you already have a Bank account <b>OR</b> a Non-government Student, <br>please proceed to <u>Step 2</u></p>
+<!--                                        <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s1;?></h5>-->
+                                        <p>For allowance purposes (applicable to Government Scholarship students only), if you do not have a Bank Account, please go to a bank and open up a new account.</p>
+                                        <p>If you already have a Bank account <b>OR</b> a Non-government Student, please proceed to <u>Step 2</u></p>
                                         </div>
                                     </li>
                                         
@@ -392,6 +392,8 @@
                 <div class="moc-bot"></div>
             </div>
         </div>
+        
+        <script src="/js/lightbox-plus-jquery.min.js"></script>
 
         <!--Cookie-->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -433,6 +435,6 @@
                 }
             });
         </script>
-        <script src="/js/lightbox-plus-jquery.min.js"></script>
+        
     </body>
 </html>
