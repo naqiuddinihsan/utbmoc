@@ -27,8 +27,8 @@
     
     <!--Location data-->
     <?php
-        if (include("/res/moc_data.php"))
-            include("/res/moc_data.php");
+        if (include("res/moc_data.php"))
+            include("res/moc_data.php");
         else
         $moc_loc_s1 = $moc_loc_s2 = $moc_loc_s3a = $moc_loc_s3b = $moc_loc_s4 = $moc_loc_s5 = $moc_loc_s6 = "(Internet connection needed)";
     ?>
@@ -100,21 +100,6 @@
                         <div class="moc-post">
                             <h3>&raquo; Day 1: Registration &laquo;</h3>
                                 <ul>                                    
-                                    <li>
-<!--
-                                        <div class="moc-step">
-                                        <h4>
-                                            <input type="checkbox" name="moc-step" value="step" checked="checked">
-                                            STEP #0 - Come to Uni
-                                        </h4>
-                                        <p></p>
-                                        </div>
--->
-                                    </li>
-                                        
-                                    
-                                    
-                                    
                                     <!--STEP 1-->
                                     <li>
                                         <div class="moc-step">
@@ -122,7 +107,7 @@
                                             <input type="checkbox" name="moc-step" value="step" id="moc-step1">
                                             <label for="moc-step1">STEP #1 - OPEN Bank Account</label>
                                         </h4>
-<!--                                        <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s1;?></h5>-->
+                                        <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s1;?></h5>
                                         <p>For allowance purposes (applicable to Government Scholarship students only), if you do not have a Bank Account, please go to a bank and open up a new account.</p>
                                         <p>If you already have a Bank account <b>OR</b> a Non-government Student, please proceed to <u>Step 2</u></p>
                                         </div>
