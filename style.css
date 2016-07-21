@@ -220,12 +220,12 @@ button:active {
 }
 
 .ico-loc {
-    background: url('moc_location.png');
+    background: url('img/moc_location.png');
 }
 
 dev-copyright {
     margin: 0 auto;
-    background-image: url('nqdi.png');
+    background-image: url('img/nqdi.png');
     height: 32px;
     width: 32px;
     background-size: 90%;
@@ -251,13 +251,4 @@ dev-copyright {
 .moc-step h5 {
     color: #20AFC1;
     padding: 8px 18px 4px 18px;
-}
-
-.moc-copyright-ihsan {
-    height: 64px;
-    width: 64px;
-    background: url(nqdi.png);
-    margin: 0 auto 48px auto;
-    background-position: center;
-    background-repeat: no-repeat;
 }
