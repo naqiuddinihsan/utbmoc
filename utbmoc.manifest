@@ -1,6 +1,7 @@
 CACHE MANIFEST
 # v1.0
 index.php
+res/moc_data.php
 res/moc_header.php
 res/moc_banner.php
 res/moc_canvas.php
