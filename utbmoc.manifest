@@ -2,18 +2,18 @@ CACHE MANIFEST
 # v1.0
 index.php
 res/moc_header.php
-
+res/moc_banner.php
+res/moc_canvas.php
 style.css
 touch-icon-iphone-retina.png
 img/a22.png
 img/b05.png
 img/c-navigator-horizontal.png
 
-
 NETWORK:
 # All URLs that start with the following lines
 # are whitelisted.
-http://utbmoc.herokuapp.com/res/
+http://utbmoc.herokuapp.com/
 http://cdn.jsdelivr.net/
 http://ajax.googleapis.com/
  
