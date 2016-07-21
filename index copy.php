@@ -13,6 +13,15 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="apple-touch-icon" href="touch-icon-iphone-retina.png">
         <meta name="apple-mobile-web-app-status-bar-style" content="white">
+        
+        <!--Litebox-->
+        <link rel="stylesheet" href="/css/lightbox.min.css">
+        
+        <!--Slider-->
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+        <script type="text/javascript" src="js/jssor.params.js"></script>
+        <link rel="stylesheet" href="/css/jssor.css">        
     </head> 
     
     <!--Location data-->
@@ -61,12 +70,55 @@
                 <!--MOC MID-->
                 <div id="randomdiv" class="moc-mid">                    
                     <!--AD BANNER-->
-                    <div class="moc-banner">                                            
+                    <div class="moc-banner">                        
+                        <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 620px; overflow: hidden; visibility: hidden;">
+                            <!-- Loading Screen -->
+                            <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+                                <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+                                <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+                            </div>
+                            
+                            <!--SLIDES-->
+                            <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 620px; overflow: hidden;">
+                                <div data-p="225.00" style="display: none;">                                    
+                                        <img data-u="image" src="img/UTBMOC_Banner_welcome.jpg" />
+                                </div>
+                                <div data-p="225.00" style="display: none;">
+                                    <a href="http://pmutb.slack.com" target="_blank">
+                                        <img data-u="image" src="img/UTBMOC_Banner_slack.jpg" />
+                                    </a>
+                                </div>
+                                <div data-p="225.00" style="display: none;">                                    
+                                        <img data-u="image" src="img/UTBMOC_Banner_help.jpg" />
+                                </div>    
+                                <div data-p="225.00" style="display: none;">
+                                    <a href="img/UTBMOC_Banner_photocopy.jpg" data-lightbox="map">
+                                        <img data-u="image" src="img/UTBMOC_Banner_photocopy.jpg" />
+                                    </a>
+                                </div>
+                                <div data-p="225.00" style="display: none;">                                    
+                                        <img data-u="image" src="img/UTBMOC_Banner_passphot.jpg" />
+                                </div>
+                                
+                            </div>
+                            <!-- Bullet Navigator -->
+<!--
+                            <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+                                <div data-u="prototype" style="width:16px;height:16px;"></div>
+                            </div>
+-->
+                            <!-- Arrow Navigator -->
+<!--
+                            <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
+                            <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
+-->
+                        </div>  
                     </div>
                     
                     <!--CANVAS-->
                     <div class="moc-canvas">                        
                         <div class="moc-post">
+<!--                            <h3>&raquo; Day 1: Registration &laquo;</h3>-->
                                 <ul>                                    
                                     <!--STEP 1-->
                                     <li>
@@ -248,6 +300,20 @@
                 <div class="moc-bot"></div>
             </div>
         </div>
+
+        <!-- Lightbox-->
+        <script src="/js/lightbox-plus-jquery.min.js"></script>
+
+        <!--AJAX Refresher-->
+        <script>
+            $(function() {
+              $("#refresh").click(function(evt) {
+                 $("#randomdiv").load("index.php")
+                 evt.preventDefault();
+              })
+            })
+        </script>
+
         <!--Cookie-->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="http://cdn.jsdelivr.net/jquery.cookie/1.4.0/jquery.cookie.min.js"></script>
