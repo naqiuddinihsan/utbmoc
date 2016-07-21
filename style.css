@@ -37,6 +37,7 @@ p {
 
 ul, ol {
     padding-bottom: 12px; 
+    -webkit-padding-start: 0px;
 }
 
 p, ul, ol, li, a {
