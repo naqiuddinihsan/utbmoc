@@ -23,7 +23,7 @@
         <script type="text/javascript" src="js/jssor.params.js"></script>
         <link rel="stylesheet" href="/css/jssor.css">
         
-    </head>
+    </head> 
     
     <!--Location data-->
     <?php
@@ -98,7 +98,7 @@
                     <!--CANVAS-->
                     <div class="moc-canvas">                        
                         <div class="moc-post">
-                            <h3>&raquo; Day 1: Registration &laquo;</h3>
+<!--                            <h3>&raquo; Day 1: Registration &laquo;</h3>-->
                                 <ul>                                    
                                     <!--STEP 1-->
                                     <li>
