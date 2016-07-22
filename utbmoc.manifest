@@ -1,6 +1,7 @@
 CACHE MANIFEST
 # v1.0
 index.php
+res/moc_func.php
 style.css
 touch-icon-iphone-retina.png
 # img/404.jpg
