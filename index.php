@@ -231,7 +231,14 @@
                                     </div>
                                 </li>
                             </ul>
-                            <div class="moc-copyright-ihsan"></div>
+                            <div class="moc-copyright">
+                                <a href="http://www.qwamii.com">
+                                    <div class="moc-copyright-ihsan"></div>
+                                </a>
+                                <a href="http://domainbn.tumblr.com">
+                                    <div class="moc-copyright-domain"></div>
+                                </a>
+                            </div>
                         </div>                    
                     </div>
                 </div>
