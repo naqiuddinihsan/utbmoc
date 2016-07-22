@@ -26,7 +26,6 @@
     
     <!--Location data-->
     <?php
-        include ("res/moc_func.php");
         if (include("res/moc_data.php"))
             include("res/moc_data.php");
         else
