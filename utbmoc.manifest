@@ -6,7 +6,6 @@ favicon.ico
 touch-icon-iphone-retina.png
 res/moc_func.php
 res/moc_banner.php
-img/UTBMOC_Banner_404.jpg
 img/utbmoc_layout.png
 img/nqdi.png
 img/moc_location.png
@@ -16,6 +15,7 @@ js/jquery-1.11.3.min.js
 js/jssor.slider.mini.js
 js/jssor.params.js
 css/jssor.css
+img/UTBMOC_Banner_404.jpg
 img/UTBMOC_Banner_welcome.jpg
 img/UTBMOC_Banner_help.jpg
 
@@ -30,8 +30,6 @@ https://fonts.googleapis.com/
 CACHE:
 
 FALLBACK:
-img/UTBMOC_Banner_welcome.jpg img/UTBMOC_Banner_404.jpg
 img/UTBMOC_Banner_slack.jpg img/UTBMOC_Banner_404.jpg
-img/UTBMOC_Banner_help.jpg img/UTBMOC_Banner_404.jpg
 img/UTBMOC_Banner_photocopy.jpg img/UTBMOC_Banner_404.jpg
 img/UTBMOC_Banner_passphot.jpg img/UTBMOC_Banner_404.jpg
