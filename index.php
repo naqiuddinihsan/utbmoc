@@ -26,6 +26,7 @@
     
     <!--Location data-->
     <?php
+        include ("res/moc_func.php");
         if (include("res/moc_data.php"))
             include("res/moc_data.php");
         else
@@ -48,7 +49,9 @@
                 <!--MOC MID-->
                 <div id="randomdiv" class="moc-mid">                    
                     <!--AD BANNER-->                    
-                    <?php include ('res/moc_banner.php');?>
+                    <?php 
+                        include ('res/moc_banner.php');
+                    ?>
                     <!--CANVAS-->
                     <div class="moc-canvas">                        
                         <div class="moc-post">
@@ -227,7 +230,7 @@
                                         <label for="moc-step6">STEP #6 - VISIT CCA Booths</label>
                                     </h4>
                                     <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s6;?></h5>
-                                    <p>Head over to the Teratak Putih and enjoy some astonishing performances from our clubs prepared just for you! Don't forget to sign up for your favorite clubs as well. See you there!</p>
+                                    <p><?php echo $moc_s6_content;?></p>
                                     </div>
                                 </li>
                             </ul>

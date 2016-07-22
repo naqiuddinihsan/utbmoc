@@ -19,4 +19,5 @@
 
     // CCA Booths
     $moc_loc_s6 = "<a href='img/utbmoc_layout.png' target='_blank'>Teratak Putih</a>";
+    $moc_s6_content = "Head over to the Teratak Putih and enjoy some astonishing performances from our clubs prepared just for you! Don't forget to sign up for your favorite clubs as well. See you there!";
 ?>
