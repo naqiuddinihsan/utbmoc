@@ -57,8 +57,8 @@
                             <ul> 
                                 
                                 <li>
-                                <div class="moc-hint"
-                                    <p>This app will guide you through what needs to be done.</p>
+                                <div class="moc-hint">
+                                    <p>This app will guide you through to what needs to be done.</p>
                                 </div>
                                 </li>
                                 <!--STEP 1-->
