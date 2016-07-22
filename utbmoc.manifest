@@ -1,26 +1,23 @@
 CACHE MANIFEST
 # v1.0
 index.php
-res/moc_func.php
 style.css
-touch-icon-iphone-retina.png
-img/UTBMOC_Banner_404.jpg
 favicon.ico
+touch-icon-iphone-retina.png
+res/moc_func.php
+res/moc_banner.php
+img/UTBMOC_Banner_404.jpg
+img/utbmoc_layout.png
 img/nqdi.png
 img/moc_location.png
 js/jquery.min.js
 js/jquery.cookie.min.js
-res/moc_banner.php
-img/utbmoc_layout.png
 js/jquery-1.11.3.min.js
 js/jssor.slider.mini.js
 js/jssor.params.js
 css/jssor.css
 img/UTBMOC_Banner_welcome.jpg
-# img/UTBMOC_Banner_slack.jpg
 img/UTBMOC_Banner_help.jpg
-# img/UTBMOC_Banner_photocopy.jpg
-# img/UTBMOC_Banner_passphot.jpg
 
 NETWORK:
 # All URLs that start with the following lines
@@ -33,9 +30,6 @@ https://fonts.googleapis.com/
 CACHE:
 
 FALLBACK:
-# demoimages/currentImg.jpg images/stockImage.jpg
-# index.php backup.php
-# img/utbmoc_layout.ong img/nqdi.png
 img/UTBMOC_Banner_welcome.jpg img/UTBMOC_Banner_404.jpg
 img/UTBMOC_Banner_slack.jpg img/UTBMOC_Banner_404.jpg
 img/UTBMOC_Banner_help.jpg img/UTBMOC_Banner_404.jpg
