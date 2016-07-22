@@ -227,7 +227,7 @@
                                         <label for="moc-step6">STEP #6 - VISIT CCA Booths</label>
                                     </h4>
                                     <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s6;?></h5>
-                                    <p>Head over to the Silver Jubilee Court and enjoy some astonishing performances from our clubs prepared just for you! Don't forget to sign up for your favorite clubs as well. See you there!</p>
+                                    <p>Head over to the Teratak Putih and enjoy some astonishing performances from our clubs prepared just for you! Don't forget to sign up for your favorite clubs as well. See you there!</p>
                                     </div>
                                 </li>
                             </ul>
