@@ -54,7 +54,13 @@
                     <!--CANVAS-->
                     <div class="moc-canvas">                        
                         <div class="moc-post">
-                            <ul>                                    
+                            <ul> 
+                                
+                                <li>
+                                <div class="moc-hint"
+                                    <p>This app will guide you through what needs to be done.</p>
+                                </div>
+                                </li>
                                 <!--STEP 1-->
                                 <li>
                                     <div class="moc-step">
@@ -62,7 +68,7 @@
                                         <input type="checkbox" name="moc-step" value="step" id="moc-step1">
                                         <label for="moc-step1">STEP #1 - OPEN Bank Account</label>
                                     </h4>
-                                    <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s1;?></h5>
+<!--                                    <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s1;?></h5>-->
                                     <p>For allowance purposes (applicable to Government Scholarship students only), if you do not have a Bank Account, please go to a bank and open up a new account.</p>
                                     <p>If you already have a Bank account <b>OR</b> a Non-government Student, please proceed to <u>Step 2</u></p>
                                     </div>
@@ -85,13 +91,7 @@
                                     </div>   
                                 </li>
 
-<!--
-                                <li>
-                                <div class="moc-hint"
-                                    <p><em>You may either complete STEP 3A or 3B in any order. However, you still have to complete both steps before proceeding to <u>Step 4</u></em></p>
-                                </div>
-                                </li>
--->
+                                
 
                                 <!--STEP 3a-->
 <!--
