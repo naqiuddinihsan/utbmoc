@@ -1,9 +1,5 @@
 html, body {
     margin: 0 !important;
-/*
-    background: #E8EAF6;
-    color: #757575;
-*/
     background: #F2F4F4;
 }
 
@@ -17,13 +13,11 @@ input[type="checkbox"]:checked + label {
   transform: scale(1.2);
 
   /* Webkit browsers*/
-  -webkit-transform: scale(1.2);
-    
+  -webkit-transform: scale(1.2);    
 }
 
 a {
     text-decoration: none;
-/*    color: white;*/
 }
 
 h3, p {
@@ -88,7 +82,6 @@ button:active {
 }
      
 .moc-header {
-/*    background: #6B3E85;*/
     background-color: #fff;
     height: 56px;
     color: #fff;
@@ -118,8 +111,13 @@ button:active {
     text-align: center;
 }
 
+.moc-banner img {
+    max-width: 100%;
+}
+
 .moc-canvas {
-    padding-top: 24px;
+    padding-top: 4px;
+    
 }
 
 .moc-post {
@@ -191,10 +189,7 @@ button:active {
 }
 
 .moc-step {
-    background: #fff;
-/*    padding: 18px;*/
-/*    margin-bottom: 12px;*/
-    
+    background: #fff;    
     padding: 0 0 8px 0;
     margin: 16px 16px 12px 16px;
     border-radius: 8px;
@@ -220,26 +215,23 @@ button:active {
 }
 
 .ico-loc {
-    background: url('moc_location.png');
+    background: url('img/moc_location.png');
 }
 
-dev-copyright {
-    margin: 0 auto;
-    background-image: url('nqdi.png');
-    height: 32px;
-    width: 32px;
-    background-size: 90%;
-    background-repeat: no-repeat;
+.moc-copyright-ihsan {
+    height: 64px;
+    width: 64px;
+    background: url('img/nqdi.png');
+    margin: 0 auto 48px auto;
     background-position: center;
-    margin-top: 8px;
-    transition: all ease-in-out 0.2s;
+    background-repeat: no-repeat;
 }
 
 /*Override*/
 .moc-step h4 {
     padding: 12px 18px;
     color: white;
-    background: #6E398B;
+    background: #394B59;
     margin-bottom: 8px;
 }
 
@@ -253,11 +245,6 @@ dev-copyright {
     padding: 8px 18px 4px 18px;
 }
 
-.moc-copyright-ihsan {
-    height: 64px;
-    width: 64px;
-    background: url(nqdi.png);
-    margin: 0 auto 48px auto;
-    background-position: center;
-    background-repeat: no-repeat;
+.moc-step h5 a {
+    color: #20AFC1;
 }

@@ -1,27 +1,38 @@
 CACHE MANIFEST
 # v1.0
 index.php
-
 style.css
 touch-icon-iphone-retina.png
-img/a22.png
-img/b05.png
-img/c-navigator-horizontal.png
-
+touch-icon-iphone-retina-beta.png
+# img/404.jpg
+favicon.ico
+img/nqdi.png
+img/moc_location.png
+js/jquery.min.js
+js/jquery.cookie.min.js
+res/moc_banner.php
+img/utbmoc_layout.png
+js/jquery-1.11.3.min.js
+js/jssor.slider.mini.js
+js/jssor.params.js
+css/jssor.css
+img/UTBMOC_Banner_welcome.jpg
+img/UTBMOC_Banner_slack.jpg
+img/UTBMOC_Banner_help.jpg
+img/UTBMOC_Banner_photocopy.jpg
+img/UTBMOC_Banner_passphot.jpg
 
 NETWORK:
 # All URLs that start with the following lines
 # are whitelisted.
 # http://utbmoc.herokuapp.com/
-http://cdn.jsdelivr.net/
-http://ajax.googleapis.com/
-http://utbmoc.herokuapp.com/moc_data.php
+https://cdn.jsdelivr.net/
+https://ajax.googleapis.com/
+https://fonts.googleapis.com/
  
 CACHE:
-nqdi.png
-moc_location.png
-img/UTBMOC_Banner_welcome.jpg
-img/UTBMOC_Banner_slack.jpg
- 
+
 FALLBACK:
 # demoimages/currentImg.jpg images/stockImage.jpg
+# index.php backup.php
+# img/utbmoc_layout.ong img/nqdi.png
