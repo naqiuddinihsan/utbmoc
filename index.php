@@ -14,9 +14,6 @@
         <link rel="apple-touch-icon" href="touch-icon-iphone-retina.png">
         <meta name="apple-mobile-web-app-status-bar-style" content="white">
         
-        <!--Litebox-->
-        <link rel="stylesheet" href="css/lightbox.min.css">
-        
         <!--Slider-->
         <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
         <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
@@ -247,10 +244,6 @@
                 <div class="moc-bot"></div>
             </div>
         </div>
-
-        <!-- Lightbox-->
-        <script src="js/lightbox-plus-jquery.min.js"></script>
-
         <!--Cookie-->
         <script src="js/jquery.min.js"></script>
         <script src="js/jquery.cookie.min.js"></script>
