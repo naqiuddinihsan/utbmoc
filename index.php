@@ -86,11 +86,15 @@
                                     <div class="moc-step">
                                     <h4>
                                         <input type="checkbox" name="moc-step" value="step" id="moc-step2">
-                                        <label for="moc-step2">STEP #2 - GET Insurance</label>
+                                        <label for="moc-step2">STEP #2 - GET Insurance (minimum $20)</label>
                                     </h4>
                                     <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s2;?></h5>
                                     <p>All new students are advised to pay for insurance according to their Faculty/School before proceeding to <u>Step 3</u></p>
-                                        <hr>
+                                    <p>To bring:</p>
+                                    <ul>
+                                        <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b1"> 💵 Money (Cash-in-hand)</li>
+                                    </ul>
+                                    <hr>
                                     <h6>⚙️ Faculty of Engineering &raquo; Takaful Brunei Keluarga</h6>
                                     <h6>👔 School of Business &raquo; Insurans Islam TAIB</h6>
                                     <h6>🖥 School of Computing and Informatics &raquo; Insurans Islam TAIB</h6>
