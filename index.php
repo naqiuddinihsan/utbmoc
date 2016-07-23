@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--<html manifest="utbmoc.manifest">-->
-<html>
+<html manifest="utbmoc.manifest">
+<!--<html>-->
     <head>
         <title>Checklist</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -59,9 +59,11 @@
                                 </li>
                                 
                                 <li>
+<!--
                                 <div class="moc-hint">
                                     <p>This app will guide you through to what needs to be done.</p>
                                 </div>
+-->
                                 </li>
                                 
                                 
