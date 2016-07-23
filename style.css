@@ -196,6 +196,7 @@ button:active {
     overflow: hidden;
     -webkit-box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
     box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
+    overflow: hidden;
 }
 
 .moc-step ol, .moc-step ul {
@@ -247,4 +248,11 @@ button:active {
 
 .moc-step h5 a {
     color: #20AFC1;
+}
+
+.moc-step2, img {
+    padding: 0;
+    overflow: hidden !important;
+    border-radius: 12px;
+    z-index: 100;
 }

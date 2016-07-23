@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html manifest="utbmoc.manifest">
-<!--<html>-->
+<!--<html manifest="utbmoc.manifest">-->
+<html>
     <head>
         <title>Checklist</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -45,19 +45,26 @@
                 <!--MOC MID-->
                 <div id="randomdiv" class="moc-mid">                    
                     <!--AD BANNER-->                    
-                    <?php 
-                        include ('res/moc_banner.php');
-                    ?>
+                    
                     <!--CANVAS-->
                     <div class="moc-canvas">                        
                         <div class="moc-post">
                             <ul> 
+                                <li>
+                                    <div class="moc-step moc-step2">
+                                        <?php 
+                                            include ('res/moc_banner.php');
+                                        ?>
+                                    </div>
+                                </li>
                                 
                                 <li>
                                 <div class="moc-hint">
                                     <p>This app will guide you through to what needs to be done.</p>
                                 </div>
                                 </li>
+                                
+                                
                                 <!--STEP 1-->
                                 <li>
                                     <div class="moc-step">

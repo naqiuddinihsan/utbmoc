@@ -1,4 +1,4 @@
-<div class="moc-banner">                        
+<div class="moc-banner">
             <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 620px; overflow: hidden; visibility: hidden;">
                 <!-- Loading Screen -->
                 <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
