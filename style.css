@@ -253,6 +253,5 @@ button:active {
 .moc-step2, img {
     padding: 0;
     overflow: hidden !important;
-    border-radius: 12px;
-    z-index: 100;
+    border-radius: 8px;
 }
