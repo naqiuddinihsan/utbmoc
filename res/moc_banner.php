@@ -8,14 +8,16 @@
             <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 620px; overflow: hidden;">
 <?php
                 
-                function moc_ldBanner($url) {
-                      echo '<div data-p="225.00" style="display: none;">                                    
-                                    <img data-u="image" src="'.$url.'" />
-                            </div>';
+                function moc_ldBanner($src,$href) {    
+                    echo '<div data-p="225.00" style="display: none;">';
+                    if ($href) echo '<a href="'.$href.'">';
+                    echo '<img data-u="image" src="'.$src.'" />';
+                    if ($href) echo '</a>';
+                    echo  '</div>';
                 }
     // Banner Contents, they will appear sequentially
-        moc_ldBanner("img/UTBMOC_Banner_welcome.jpg");
-        moc_ldBanner("img/UTBMOC_Banner_slack.jpg");
+        moc_ldBanner("img/UTBMOC_Banner_welcome.jpg");                
+        moc_ldBanner("img/UTBMOC_Banner_slack.jpg","http://pmutb.slack.com");
         moc_ldBanner("img/UTBMOC_Banner_help.jpg");
         // moc_ldBanner("img/UTBMOC_Banner_photocopy.jpg");
         // moc_ldBanner("img/UTBMOC_Banner_passphot.jpg");
