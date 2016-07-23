@@ -95,6 +95,7 @@
                                         <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b1"> 💵 Money (Cash-in-hand)</li>
                                     </ul>
                                     <hr>
+                                    <h5>Recommended insurance provider (according to faculty):</h5>
                                     <h6>⚙️ Faculty of Engineering &raquo; Takaful Brunei Keluarga</h6>
                                     <h6>👔 School of Business &raquo; Insurans Islam TAIB</h6>
                                     <h6>🖥 School of Computing and Informatics &raquo; Insurans Islam TAIB</h6>
@@ -250,6 +251,10 @@
                                 <a href="http://domainbn.tumblr.com">
                                     <div class="moc-copyright-domain"></div>
                                 </a>
+                            </div>
+                            
+                            <div class="moc-hint moc-disclaimer">
+                                <p>Disclaimer: This app is not affiliated directly with Universiti Teknologi Brunei. This app is only intended to help as a reference and a simple checklist for students during <em>Minggu Orientasi 2016</em>.</p>
                             </div>
                         </div>                    
                     </div>
