@@ -253,7 +253,7 @@ button:active {
 .moc-step2, img {
     padding: 0;
     overflow: hidden !important;
-    border-radius: 12px !important;
+    border-radius: 8px !important;
 }
 
 .moc-disclaimer {
