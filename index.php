@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html manifest="utbmoc.manifest">
-<!--html>-->
+<!--<html manifest="utbmoc.manifest">-->
+<html>
     <head>
         <title>Checklist</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -254,7 +254,7 @@
                             </div>
                             
                             <div class="moc-hint moc-disclaimer">
-                                <p>Disclaimer: This app is not affiliated directly with Universiti Teknologi Brunei. This app is only intended to help as a reference and a simple checklist for students during <em>Minggu Orientasi 2016</em>.</p>
+                                <p>Disclaimer: This app is not affiliated directly with Universiti Teknologi Brunei. This app is only intended to help as a reference and a simple checklist for students during <em>Minggu Orientasi 2017</em>.</p>
                             </div>
                         </div>                    
                     </div>
