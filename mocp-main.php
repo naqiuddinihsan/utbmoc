@@ -34,16 +34,20 @@
             <div class="moc-step">
             <h4>
                 <input type="checkbox" name="moc-step" value="step" id="moc-step1">
-                <label for="moc-step1">STEP #1 - OPEN Bank Account</label>
+                <label for="moc-step1">STEP #1 - Opening a new Bank Account</label>
             </h4>
 <!--                                    <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s1;?></h5>-->
             <p>For allowance purposes (applicable to Government Scholarship students only), if you do not have a bank Account, please <em>go to a bank and open up a new account</em>.</p>
-            <p>If you already have a bank account <b>OR</b> are a non-government student, please proceed to <u>Step 2</u></p>
+            <p>If you already have a bank account <b>OR</b> are a Non-government scholarship student, please proceed to <u>Step 2</u></p>
             </div>
         </li>
 
 
-
+        <li>
+            <div class="moc-hint">
+                <p>Tip: You may complete either Step 2 or 3 first after completing Step 1</p>
+            </div>
+        </li>
 
 
 
@@ -51,21 +55,32 @@
         <!--STEP 2-->    
         <li>
             <div class="moc-step">
-            <h4>
-                <input type="checkbox" name="moc-step" value="step" id="moc-step2">
-                <label for="moc-step2">STEP #2 - GET Insurance (minimum $20)</label>
-            </h4>
-            <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s2;?></h5>
-            <p>All new students are advised to pay for insurance according to their Faculty/School before proceeding to <u>Step 3</u></p>
-            <p>To bring:</p>
-            <ul>
-                <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b1"> 💵 Money (Cash-in-hand)</li>
-            </ul>
-            <hr>
-            <h5>Recommended insurance provider (according to faculty):</h5>
-            <h6>⚙️ Faculty of Engineering &raquo; Takaful Brunei Keluarga</h6>
-            <h6>👔 School of Business &raquo; Insurans Islam TAIB</h6>
-            <h6>🖥 School of Computing and Informatics &raquo; Insurans Islam TAIB</h6>
+                <h4>
+                    <input type="checkbox" name="moc-step" value="step" id="moc-step2">
+                    <label for="moc-step2">STEP #2 - Programme Registration</label>
+                </h4>
+                
+                <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s2;?></h5>
+                
+                <h6>Checklist for Undergraduates:</h6>
+                    <ul>
+                        <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-2a1"><label for="moc-2a1">📄 1x Photocopy of Offer Letter</label></li>
+                        <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-2a2"><label for="moc-2a2">📑 1x Photocopy of Identity Card</label></li>
+                        <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-2a3"><label for="moc-2a3">📑 1x Photocopy of Bank Account Details [For Government Scholarship Only]</label></li>
+                        <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-2a4"><label for="moc-2a4">📷💿 1x Soft Copy passport-sized photo (CD or PenDrive)</label></li>
+                        <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-2a5"><label for="moc-2a5">🔖 1x Original Insurance Receipt</label></li>
+                    </ul>
+                
+                <h6>Checklist for Graduate Studies (Masters and PhD):</h6>
+                    <ul>
+                        <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-2b1"><label for="moc-2b1">📄 1x Registration Form</label></li>
+                        <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-2b2"><label for="moc-2b2">📄 1x Photocopy of Offer Letter</label></li>
+                        <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-2b3"><label for="moc-2b3">📑 1x Photocopy of Identity Card</label></li>
+                        <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-2b4"><label for="moc-2b4">📷💿 1x Soft Copy passport-sized photo (CD or PenDrive)</label></li>
+                        <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-2b5"><label for="moc-2b5">📷 2x Hard Copy passport-sized photo</label></li>
+                        <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-2b6"><label for="moc-2b6">🔖 1x Photocopy of Insurance Receipt</label></li>    
+                        <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-2b7"><label for="moc-2b7">🔖 1x Photocopy of Acceptance Fee Receipt</label></li>
+                    </ul>
             </div>   
         </li>
 
@@ -74,164 +89,82 @@
 
 
 
-        <!--STEP 3a-->
-<!--
+        <!--STEP 3-->    
         <li>
             <div class="moc-step">
             <h4>
-                <input type="checkbox" name="moc-step" value="step" id="moc-step3a">
-                <label for="moc-step3a">STEP #3A - CREATE Student ID</label>
+                <input type="checkbox" name="moc-step" value="step" id="moc-step3">
+                <label for="moc-step3b">STEP #3 - Payment</label>
             </h4>
-            <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s3a;?></h5>
-            <p>To bring:</p>
-            <ul>                                            
-                <li><input type="checkbox" name="moc-tobring3a" value="passphot" id="moc-s3a1"> 📷 Softcopy of passport-sized Photo</li>
-            </ul>
-            </div>
-        </li>
--->
-
-
-
-
-
-
-        <!--STEP 3b-->    
-        <li>
-            <div class="moc-step">
-            <h4>
-                <input type="checkbox" name="moc-step" value="step" id="moc-step3b">
-                <label for="moc-step3b">STEP #3 - REGISTER Course</label>
-            </h4>
-            <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s3b;?></h5>
-            <p>To bring:</p>
+            <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s4;?></h5>
+            <p>What to bring:</p>
             <ul>
-                <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b1"> 📄 Photocopy of Offer Letter</li>
-                <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b2"> 📷💿 Two (2x) Passport-sized photo AND CD containing softcopy</li>
-                <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b3"> 📑 Two (2x) copies of ID Card</li>
-                <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b4"> 🔖 Insurance receipt</li>
-                <li><input type="checkbox" name="moc-tobring3b" value="tobring" id="moc-s3b5"> 📑 Photocopy of bank account details (for government scholarship students only)</li>
-            </ul>
+                        <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-31"><label for="moc-31">🎫 Identity Card</label></li>
+                        <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-32"><label for="moc-32">📄 Offer letter</label></li>
+                        <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-33"><label for="moc-33">💵 Money (Cash-in-hand)</label></li>
+                        <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-34"><label for="moc-34">🔖 Original Insurance Receipt</label></li>    
+                    </ul>
             </div>
         </li>
-
-
-
-
 
 
         <!--STEP 4-->
         <li>
             <div class="moc-step">
                 <h4>
-                    <input type="checkbox" name="moc-step" value="step" id="moc-step4">
-                    <label for="moc-step4">STEP #4 - PAY Fees</label>
+                    <input type="checkbox" name="moc-step" value="step" id="moc-step5">
+                    <label for="moc-step5">STEP #4 - Orientation Pack Collection</label>
                 </h4>
-                <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s4;?></h5>
-                <p>To bring:</p>
+                <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s5;?></h5>
+                <p>What to bring:</p>
                 <ul>
-                    <li><input type="checkbox" name="moc-tobring4" value="tobring" id="moc-s41"> 🎫 IC</li>
-                    <li><input type="checkbox" name="moc-tobring4" value="tobring" id="moc-s42"> 📄 Offer letter</li>
-                    <li><input type="checkbox" name="moc-tobring4" value="tobring" id="moc-s43"> 💵 Money (Cash-in-hand)</li>       
+                    <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-401"><label for="moc-401">🔖 Payment receipt (from <u>Step 3</u>)</label></li>
                 </ul>
                 <hr>
-                <p>What &amp; where to Pay:</p>
-                <h6>ORIENTATION PACK ($80)</h6>
+                <p>There will be 6 counters at the Concourse Hall. Each counter has it's own respective responsilibity as follows:</p>
                 <ul>
-                    <li>👥 Applies to ALL Students (including fee paying students)</li>
-                    <li>📟 Counter 1, 2 and 3</li>
-                </ul>
-                <h6>PMUTB Fund ($180 / $240)</h6>
-                <ul>
-                    <li>👥 Applies to full-time students</li>
-                    <li>📟 Counter 1, 2 and 3</li>
-                </ul>
-                <h6>Fee Paying Students</h6>
-                <ul>
-                    <li>📟 Counter 4</li>
+                <h6>Counter 1</h6>
+                    <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-411"><label for="moc-411">🔖 Payment Check</label></li>
+                    <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-412"><label for="moc-412">🌂🔖 Umbrella Ticket</label></li>
+                    <br>
+                <h6>Counter 2</h6>
+                    <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-421"><label for="moc-421">🎒 Sling Bag</label></li>
+                    <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-422"><label for="moc-422">⭐️ Badge</label></li>
+                    <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-423"><label for="moc-423">📇 ID Card Holder</label></li>
+                    <br>
+                <h6>Counter 3</h6>
+                    <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-431"><label for="moc-431">📒 UTB Notebook</label></li>
+                    <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-432"><label for="moc-432">📘 Programme Book</label></li>
+                    <br>
+                <h6>Counter 4</h6>
+                    <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-441"><label for="moc-441">👕 UTB Official Shirt</label></li>
+                    <br>
+                <h6>Counter 5</h6>
+                    <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-451"><label for="moc-451">🎫 Quality Check</label></li>
+                    <br>
+                <h6>Counter 6</h6>
+                    <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-461"><label for="moc-461">👕 UTB Rumpun Shirt</label></li>
+                    <br>
                 </ul>
             </div>
         </li>
-
-
-
-
-
-
+        
 
         <!--STEP 5-->
         <li>
             <div class="moc-step">
-                <h4>
-                    <input type="checkbox" name="moc-step" value="step" id="moc-step5">
-                    <label for="moc-step5">STEP #5 - COLLECT Orientation Pack</label>
-                </h4>
-                <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s5;?></h5>
-                <p>To bring/submit:</p>
-                <ul>
-                    <li>
-                        <input type="checkbox" name="moc-step" value="step" id="moc-51"> 
-                        *🔖 Payment receipt (from <u>Step 4</u>)
-                    </li>
-                </ul>
-
-                <p>Inside the orientation pack, you should have:</p>
-                <ol>
-                    <li>
-                        <input type="checkbox" name="moc-op" value="shirt" id="moc-op1">
-                        <div class="moc-gly ico-utbshirt"></div>👕 Official UTB Shirt
-                    </li>
-                    <li>
-                        <input type="checkbox" name="moc-op" value="shirt" id="moc-op2">
-                        <div class="moc-gly ico-utbshirt"></div>👕 Rumpun UTB Shirt
-                    </li>
-                    <li>
-                        <input type="checkbox" name="moc-op" value="shirt" id="moc-op3">
-                        <div class="moc-gly ico-utbshirt"></div>🇧🇳 UTB Badge
-                    </li>
-                    <li>
-                        <input type="checkbox" name="moc-op" value="shirt" id="moc-op4">
-                        <div class="moc-gly ico-utbshirt"></div>🎒 UTB String bag
-                    </li>
-                    <li>
-                        <input type="checkbox" name="moc-op" value="shirt" id="moc-op5">
-                        <div class="moc-gly ico-utbshirt"></div>🌂 Umbrella
-                    </li>
-                    <li>
-                        <input type="checkbox" name="moc-op" value="shirt" id="moc-op6">
-                        <div class="moc-gly ico-utbshirt"></div>🖊 Pen
-                    </li>
-                    <li>
-                        <input type="checkbox" name="moc-op" value="shirt" id="moc-op7">
-                        <div class="moc-gly ico-utbshirt"></div>⭐️ UTB Lanyard
-                    </li>
-                    <li>
-                        <input type="checkbox" name="moc-op" value="shirt" id="moc-op8">
-                        <div class="moc-gly ico-utbshirt"></div>📒 UTB Notebook
-                    </li>
-                    <li>
-                        <input type="checkbox" name="moc-op" value="shirt" id="moc-op9"> 
-                        <div class="moc-gly ico-utbshirt"></div>🚗 Car shade
-                    </li>
-                </ol>                                        
-            </div>
-        </li>
-
-
-
-
-
-
-        <!--STEP 6-->
-        <li>
-            <div class="moc-step">
             <h4>
-                <input type="checkbox" name="moc-step" value="step" id="moc-step6">
-                <label for="moc-step6">STEP #6 - VISIT CCA Booths</label>
+                <input type="checkbox" name="moc-step" value="step" id="moc-step5">
+                <label for="moc-step6">STEP #5 - VISIT CCA Booths</label>
             </h4>
             <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s6;?></h5>
             <p><?php echo $moc_s6_content;?></p>
+                <img src="/img/utbmoc_ccamap.jpg" alt="Main Map" style="width:100%">
             </div>
         </li>
+        
+        
+        <!--BONUS STEP-->
+        <?php include('mocc-bonus.php');?>
     </ul>            
 </div>                    

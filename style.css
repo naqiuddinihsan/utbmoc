@@ -14,7 +14,7 @@ body{
 
 html, body, input {
     font-family: 'Myriad Pro', 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 input[type="checkbox"]:checked + label {
@@ -22,11 +22,17 @@ input[type="checkbox"]:checked + label {
   transform: scale(1.2);
 
   /* Webkit browsers*/
-  -webkit-transform: scale(1.2);    
+  -webkit-transform: scale(1.2);
+}
+
+label {
+    cursor: pointer !important;
 }
 
 a {
     text-decoration: none;
+    color: #08c;
+    font-weight: 600;
 }
 
 h3, p {
@@ -56,13 +62,14 @@ input[type="button" i], input[type="submit" i], input[type="reset" i], input[typ
 }
 
 input[type="button" i], button {
-    width: 25%;
+    width: 48%;
     height: 56px;
     line-height: 56px;
     padding: 16px 0px;
     background: #fff;
 /*    color: #6D3C89;*/
     color: #B0B3BA;
+    font-size: 14px;
 }
 
 button:hover {
@@ -237,6 +244,7 @@ button:active {
     margin-bottom: 8px;
 }
 
+
 .moc-hint {
     background: #FAE89B;
     border: 1px solid #D5AD00;
@@ -296,3 +304,50 @@ button:active {
     background: transparent;
     box-shadow: none;
 }
+
+
+button.moc-btn-cl {
+    background: url('utbmoc_cl.png');
+    background-position: center 25%;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+
+button.moc-btn-cl-sel {
+    background: url('utbmoc_cl_sel.png');
+    background-position: center 25%;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    color: #62357E;
+    font-weight: 700;
+}
+
+button.moc-btn-maps {
+    background: url('utbmoc_maps.png');
+    background-position: center 25%;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+
+button.moc-btn-maps-sel {
+    background: url('utbmoc_maps_sel.png');
+    background-position: center 25%;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    color: #62357E;
+    font-weight: 700;
+}
+}
+
+
+
+
+
+
+/*Overwrite*/
+/*
+.moc-step, .moc-step2, img {
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0 !important;
+}*/

@@ -59,6 +59,7 @@
                 }
               });
         </script>
+        
     </head> 
     
     <!--Location data-->
@@ -85,54 +86,62 @@
                 
                 <!--MOC MID (Page Content)-->
                 <!--MOC MID-->
-                <div id="randomdiv" class="moc-mid">                    
-                    <!--AD BANNER-->
-                    <!--CANVAS-->
-                    <div class="moc-canvas"> 
-                    <?php
-                    if (empty($_POST["nav"]))
-                        $nav = "";
-                    else
-                        $nav = $_POST["nav"];            
+                
+                    <div id="randomdiv" class="moc-mid">                    
+                        <!--AD BANNER-->
+                        <!--CANVAS-->
+                        <div class="moc-canvas"> 
+                        <?php
+                        if (empty($_POST["nav"]))
+                            $nav = "";
+                        else
+                            $nav = $_POST["nav"];            
 
-                    switch($nav) {
-                        case "":
-                            include("mocp-main.php");
-                            break;
-                        case "Map":
-                            include("mocp-map.php");
-                            break;
-                        default:
-                            include("mocp-main.php");
-                    }
+                        switch($nav) {
+                            case "Checklist":
+                                include("mocp-main.php");
+                                $navsel_cl = "moc-btn-cl-sel";
+                                $navsel_map = "moc-btn-maps";
+                                break;
+                            case "Map":
+                                $navsel_cl = "moc-btn-cl";
+                                $navsel_map = "moc-btn-maps-sel";
+                                include("mocp-map.php");
+                                break;
+                            default:
+                                $navsel_cl = "moc-navselected";
+                                $navsel_map = "";
+                                include("mocp-main.php");
+                        } ?>
 
-                    ?>
                         
-                    <div class="moc-copyright">
-                        <a href="http://www.qwamii.com">
-                            <div class="moc-copyright-ihsan"></div>
-                        </a>
-                        <a href="http://domainbn.tumblr.com">
-                            <div class="moc-copyright-domain"></div>
-                        </a>
-                    </div>
-
-                    <div class="moc-hint moc-disclaimer">
-                        <p>Disclaimer: This app is not affiliated directly with Universiti Teknologi Brunei. This app is only intended to help as a reference and a simple checklist for students during <em>Minggu Orientasi 2017</em>.</p>
-                    </div>
+                        <div class="moc-copyright">
+                            <a href="http://www.instagram.com/qwamii">
+                                <div class="moc-copyright-ihsan"></div>
+                            </a>
+                        </div>
+                        <div class="moc-hint moc-disclaimer">
+                            <p>Developed by <a href="http://behance.net/naqiuddinihsan">Naqiuddin Ihsan AMJ</a> &copy; 2017</p>
+                            <br>
+                            <p>Disclaimer: This app is not affiliated directly with Universiti Teknologi Brunei. This app is only intended to help as a reference and a simple checklist for students during <em>Minggu Orientasi 2017 [24-29 July 2017]</em>.</p>
+                        </div>
+                            
                         
+
+                        </div>
                     </div>
-                </div>
+                
                 
                 <!--NAV-->
                 <div class="moc-bot">
-                    <div class="moc-navholder">
+                    <div class="moc-navholder">                        
                         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-                            <button name="nav" value="">Checklist</button>
-                            <button name="nav" value="Map">Map</button>
+                            <button name="nav" value="Checklist" class="<?php echo $navsel_cl?>">Checklist</button>
+                            <button name="nav" value="Map" class="<?php echo $navsel_map?>">Maps</button>                            
                         </form>
                     </div>
                 </div>
+                <!--END NAV-->
             </div>
         </div>
         

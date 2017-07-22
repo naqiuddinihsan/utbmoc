@@ -3,6 +3,7 @@ CACHE MANIFEST
 index.php
 mocp-main.php
 mocp-map.php
+mocc-bonus.php
 img/utbmoc_mainmap.jpg
 img/utbmoc_ccamap.jpg
 style.css
@@ -20,6 +21,13 @@ css/jssor.css
 img/UTBMOC_Banner_404.jpg
 img/UTBMOC_Banner_welcome.jpg
 img/UTBMOC_Banner_help.jpg
+img/ios_app_store_btn.png
+img/google_play_store_btn.png
+img/windows_store_btn.png
+utbmoc_cl.png
+utbmoc_cl_sel.png
+utbmoc_maps.png
+utbmoc_maps_sel.png
 
 NETWORK:
 # All URLs that start with the following lines

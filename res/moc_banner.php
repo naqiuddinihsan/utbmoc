@@ -16,8 +16,9 @@
                     echo  '</div>';
                 }
     // Banner Contents, they will appear sequentially
-        moc_ldBanner("img/UTBMOC_Banner_welcome.jpg");                
-        moc_ldBanner("img/UTBMOC_Banner_slack.jpg","http://bitly.com/utb_slack");
+                        
+        moc_ldBanner("img/UTBMOC_Banner_slack.jpg","https://pmutb-slack-registration.herokuapp.com/");
+        moc_ldBanner("img/UTBMOC_Banner_welcome.jpg");
 //        moc_ldBanner("img/UTBMOC_Banner_help.jpg");
         // moc_ldBanner("img/UTBMOC_Banner_photocopy.jpg");
         // moc_ldBanner("img/UTBMOC_Banner_passphot.jpg");
