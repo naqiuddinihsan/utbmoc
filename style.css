@@ -3,6 +3,15 @@ html, body {
     background: #F2F4F4;
 }
 
+body{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 html, body, input {
     font-family: 'Myriad Pro', 'Roboto', sans-serif;
     font-weight: 300;
@@ -46,6 +55,16 @@ input[type="button" i], input[type="submit" i], input[type="reset" i], input[typ
     cursor: pointer;
 }
 
+input[type="button" i], button {
+    width: 25%;
+    height: 56px;
+    line-height: 56px;
+    padding: 16px 0px;
+    background: #fff;
+/*    color: #6D3C89;*/
+    color: #B0B3BA;
+}
+
 button:hover {
     opacity: .8;
 }
@@ -71,6 +90,7 @@ button:active {
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 56px;
+    margin-bottom: 56px;
 }
 
 .moc-top {
@@ -185,8 +205,22 @@ button:active {
 }
 
 .moc-bot {
-        
+    position: fixed;
+    bottom: 0;
+    -webkit-box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06),0 4px 5px 0 rgba(0,0,0,0.06),0 1px 10px 0 rgba(0,0,0,0.08);
+    z-index: 1200 !important;
 }
+
+.moc-navholder {
+    background-color: #fff;
+    height: 56px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
 
 .moc-step {
     background: #fff;    
