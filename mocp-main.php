@@ -38,7 +38,7 @@
             </h4>
 <!--                                    <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s1;?></h5>-->
             <p>For allowance purposes (applicable to Government Scholarship students only), if you do not have a bank Account, please <em>go to a bank and open up a new account</em>.</p>
-            <p>If you already have a bank account <b>OR</b> are a Non-government scholarship student, please proceed to <u>Step 2</u></p>
+            <p>If you already have a bank account <b>OR</b> are a Non-government scholarship student, please proceed to <b>Step 2</b></p>
             </div>
         </li>
 
@@ -118,7 +118,7 @@
                 <h5><div class="moc-ico ico-loc"></div><?php echo $moc_loc_s5;?></h5>
                 <p>What to bring:</p>
                 <ul>
-                    <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-401"><label for="moc-401">🔖 Payment receipt (from <u>Step 3</u>)</label></li>
+                    <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-401"><label for="moc-401">🔖 Payment receipt (from <b>Step 3</b>)</label></li>
                 </ul>
                 <hr>
                 <p>There will be 6 counters at the Concourse Hall. Each counter has it's own respective responsilibity as follows:</p>
@@ -140,7 +140,7 @@
                     <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-441"><label for="moc-441">👕 UTB Official Shirt</label></li>
                     <br>
                 <h6>Counter 5</h6>
-                    <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-451"><label for="moc-451">🎫 Quality Check</label></li>
+                    <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-451"><label for="moc-451">⛑ Quality Check</label></li>
                     <br>
                 <h6>Counter 6</h6>
                     <li><input type="checkbox" name="moc-clu" value="tobring" id="moc-461"><label for="moc-461">👕 UTB Rumpun Shirt</label></li>
