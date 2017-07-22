@@ -109,8 +109,8 @@
                                 include("mocp-map.php");
                                 break;
                             default:
-                                $navsel_cl = "moc-navselected";
-                                $navsel_map = "";
+                                $navsel_cl = "moc-btn-cl-sel";
+                                $navsel_map = "moc-btn-maps";
                                 include("mocp-main.php");
                         } ?>
 
