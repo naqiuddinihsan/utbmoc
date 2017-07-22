@@ -3,12 +3,12 @@ CACHE MANIFEST
 index.php
 mocp-main.php
 mocp-map.php
+img/utbmoc_mainmap.jpg
+img/utbmoc_ccamap.jpg
 style.css
 favicon.ico
 touch-icon-iphone-retina.png
 res/moc_banner.php
-img/utbmoc_mainmap.png
-img/utbmoc_ccamap.png
 img/nqdi.png
 img/moc_location.png
 js/jquery.min.js
