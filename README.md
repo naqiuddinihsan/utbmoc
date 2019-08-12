@@ -1,5 +1,6 @@
 # utbmoc
-UTB Majlis Orientasi 2016 Checklist App
+A checklist app for fresher's orientation week Universiti Teknologi Brunei
+[UTB Majlis Orientasi 2016 Checklist App]
 
 Disclaimer:
 This app is not directly affiliated to Universiti Teknologi Brunei in any way.
